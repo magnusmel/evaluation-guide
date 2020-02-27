@@ -17,7 +17,7 @@ Mendix applications run on the platform's cloud-native stateless runtime archite
 
 ## What Deployment Options Does Mendix Provide? {#options}
 
-Mendix applications run on a variety of deployment options, including public cloud, virtual private cloud, private cloud, hybrid cloud, and traditional (virtual) servers.
+Mendix applications run on a variety of deployment options, including public cloud, virtual private cloud, private cloud, hybrid cloud, multi cloud, and traditional (virtual) servers.
 
 For deployment details, see [What Deployment Options Does Mendix Provide?](multi-cloud-overview#deployment-options).
 
@@ -38,7 +38,7 @@ Mendix supports all the major cloud providers:
 * Red Hat OpenShift
 * Google Cloud Platform
 
-In addition, Mendix offers formal partnerships with IBM, SAP, Microsoft, and AWS. For details, see [Which Cloud Providers Can I Use for Mendix?](cloud-providers#which-cloud).
+In addition, Mendix offers formal partnerships with IBM, SAP, Microsoft, Google, Redhat and AWS. For details, see [Which Cloud Providers Can I Use for Mendix?](cloud-providers#which-cloud).
 
 ## Read More
 

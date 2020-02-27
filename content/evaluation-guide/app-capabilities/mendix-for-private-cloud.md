@@ -62,9 +62,9 @@ For the standalone version a backup can be triggered by providing a Mendix CR fo
 
 ## 6 How can I scale my application within Mendix For Private Cloud? 
 
+A Application deployed by Mendix for Private Cloud will by default run with two instances. Within the portal it is possilbe to change the amount of instances by moving the scaling slider. Also the memory allocation can changed within the portal to scale a instance vertically. 
 
-
-
+For the **Standalone** version a Mendix CR can be applied to the Kubernetes cluster to scale the application up or down
 
 ## 7 How can I run an application on Multiple Cloud using Mendix for Private Cloud?
 

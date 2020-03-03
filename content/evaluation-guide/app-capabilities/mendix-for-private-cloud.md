@@ -48,7 +48,7 @@ In case corporate policies won't allow it to have a online connection to the pri
 
 Typical in in these circumstances a local source code repository used as well for the Models of the Mendix Application. By creating a CI/CD pipeline which 'OnCommit' creates the Mendix CR the integartion is estalished. 
 
-![Mendix for Private Cloud Standalone](attachments\mx4pc-standalone-ci-cd.png)
+![Mendix for Private Cloud Standalone](attachments/mx4pc-standalone-ci-cd.png)
 
 ## 5 How can I create an adhoc Backup of my Application when using Mendix for Private Cloud?
 

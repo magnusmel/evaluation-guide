@@ -16,8 +16,6 @@ Allowing Mendix Development teams to manage their application lifecyle, (Dev, Te
 
 The expericenc includes also the ablity to access directly the logging and Metrics solution connected to the Kubernetes clusters. 
 
-Next to the infrastructure provided backup's, a developer will be able to create and restore an adhoc Backup's of his application. 
-
 For Kubernetes Administrators the solution will provide a single initialization script to run on the Kubernetes cluster to install the necessary Mendix for Private Cloud components.
 
 ![Cluster Registration Mendix for Private Cloud](attachments/mx4pc-cluster-registration.png)
@@ -50,34 +48,25 @@ Typical in in these circumstances a local source code repository used as well fo
 
 ![Mendix for Private Cloud Standalone](attachments/mx4pc-standalone-ci-cd.png)
 
-## 5 How can I create an adhoc Backup of my Application when using Mendix for Private Cloud?
 
-It is possilbe to create a adhoc backup of both the files as the database of the application. This can be used to move data from one environment to the other or to roll-back an earlier made deployment. 
+## 5 How can I scale my application within Mendix For Private Cloud? 
 
-The backup functionality can be found under the **Operate** header within the App menu of the Online Portal. 
-
-![Mendix for Private Cloud Backup](attachments/mx4pc-backup-feature.png) 
-
-For the standalone version a backup can be triggered by providing a Mendix CR for the Backup. 
-
-## 6 How can I scale my application within Mendix For Private Cloud? 
-
-A Application deployed by Mendix for Private Cloud will by default run with two instances. Within the portal it is possilbe to change the amount of instances by moving the scaling slider. Also the memory allocation can changed within the portal to scale a instance vertically. 
+A Application deployed by Mendix for Private Cloud will by default run with two instances. Within the portal it is possilbe to change the amount of running instances. Also the memory and CPU allocation can changed within the portal to scale a instance vertically. 
 
 For the **Standalone** version a Mendix CR can be applied to the Kubernetes cluster to scale the application up or down
 
-## 7 How can I run an application on Multiple Cloud using Mendix for Private Cloud?
+## 6 How can I run an application on Multiple Cloud using Mendix for Private Cloud?
 
 With Mendix for Private Cloud it is possible to create multiple environments for an application within difference physical Kubernetes Clusters. E.g. I could create a development environment on Azure AKS and a Production environment on RedHat OpenShift for the same application.
 
 ![Mendix for Private Cloud multi cloud deployment](attachments/mx4pc-multi-cloud.png)
 
 
-## 8 How can I manage the authorisation of my (Virtual) Private Cloud  
+## 7 How can I manage the authorisation of my (Virtual) Private Cloud  
 
 Mendix for Private Cloud defines three standard roles. A Cluster Administrator, Cluster Manager and a developer. 
 
-An Cluster Administrator is responsibe for the first time setup of Mendix for Private Cloud on a Kubernetes clusters. An Administrator asignes a Manager on the cluster who can delegate access to the cluster to other developers. 
+An Cluster Manager is responsibe for the first time setup of Mendix for Private Cloud on a Kubernetes clusters. An Manager assignes a Administrator on the cluster who can delegate access to the cluster to other developers. 
 
 For a developer it is possilbe to setup fine graded access management, like some developer may only scale, or view metrics. 
 

@@ -96,7 +96,7 @@ This video presents how you can create a backup:
 
 <video controls src="attachments/CreateBackup.mp4">VIDEO</video>
 
-For more information, see [Backups](https://docs.mendix.com/developerportal/operate/backups), [How to Create a Backup](https://docs.mendix.com/developerportal/operate/create-backup), and [How to Restore a Backup](https://docs.mendix.com/developerportal/operate/restore-backup) in the Mendix documentation.
+For more information, see [Backups](https://docs.mendix.com/developerportal/operate/backups), [How to Create a Backup](https://docs.mendix.com/developerportal/operate/create-backup), and [How to Restore a Backup](https://docs.mendix.com/developerportal/operate/restore-backup) in the *Mendix Developer Portal Guide*.
 
 ## 8 What Is the Uptime Guarantee for the Mendix Cloud?
 
@@ -116,4 +116,4 @@ See for more details: [How does Mendix Cloud support VPC?](#mendix-cloud-vpc)
 
 When approved by the user, [Mendix Support](https://support.mendix.com/hc/en-us) can gain access to the graphs and activity logs of a Mendix Cloud application. For troubleshooting customer tickets, Mendix Support uses this data to more effectively assist users. This is only done with the customer's consent in order to follow specific laws for data privacy.
 
-In addition, Mendix Support utilizes their own experience to advise on app container sizing, performance tuning, app optimization, and more.
+In addition, Mendix Support utilizes their own experience to advise on app cloud resource pack sizing, performance tuning, app optimization, and more.

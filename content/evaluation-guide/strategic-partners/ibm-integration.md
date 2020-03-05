@@ -14,7 +14,7 @@ The easiest way to start using Mendix on IBM Cloud is by using the Starter App t
 
 {{% image_container width="700" %}}
 ![IBM Cloud Integration Example](attachments/ibm_integration-cf2.png)
-
+{{% /image_container %}}
 
 ## 2 Which IBM Services Can I Use Within Mendix? {#ibm-services}
 

@@ -43,7 +43,7 @@ The core development team in Mendix low-code BizDevOps projects consists of thre
 
 * **Business analyst** – This role talks to the business and works together with a more technical developer to run the entire application delivery lifecycle, including the operations. The enablement of the business analyst is key in interpreting the requirements and feedback from the business correctly. In other words, they speak the same language to verify the UX/UI (pages), business rules (logic), and the conceptual data model of the app in development.
 
-* **Developer** – This role delivers tangible results by supporting the business analyst to build the app. The developer focusses on the technical work with the integrations, data model, security, and performance.
+* **Developer** – This role delivers tangible results by supporting the business analyst to build the app. The developer focuses on the technical work with the integrations, data model, security, and performance.
 
 This core development team runs the entire application delivery lifecycle without the direct help of a Java programmer. All of these roles are important, especially in an enterprise-scale delivery of multiple applications. However, they are also part of a higher-level Center of Excellence, which is often spread between multiple Mendix application development teams.
 
@@ -69,4 +69,4 @@ Compared to DevOps, the BizDevOps approach knocks down the silos between DevOps 
 
 In traditional app development, feedback can only be given on full working applications, which contrasts with the iterative approach of the Agile methodology. Compared to DevOps teams, traditional app development projects, development teams, operation teams, and business management teams all operate in silos, instead of unifying software development (Dev) and software operation (Ops).
 
-Mendix can be used in this traditional process as a low-code development platform to enable developers to build apps faster. Operations can use the Mendix Developer Portal to manage and monitor apps. Of course, in this approach, you will be missing a big part of what makes building apps with Mendix so succesful – the Mendix BizDevOps process.
+Mendix can be used in this traditional process as a low-code development platform to enable developers to build apps faster. Operations can use the Mendix Developer Portal to manage and monitor apps. Of course, in this approach, you will be missing a big part of what makes building apps with Mendix so successful – the Mendix BizDevOps process.

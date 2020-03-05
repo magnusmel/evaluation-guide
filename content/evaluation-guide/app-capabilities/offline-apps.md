@@ -3,7 +3,7 @@ title: "Offline-First Apps"
 seo_title: "Building Offline Native Applications in Mendix"
 seo_description: "Learn how Mendix offline apps work, how they handle data, and how data conflicts are reconciled."
 parent: "ux-multi-channel-apps"
-menu_order: 50
+menu_order: 60
 bg: "ux"
 tags: ["mobile app", "offline", "offline-first", "offline"]
 ---

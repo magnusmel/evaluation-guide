@@ -18,7 +18,7 @@ Assigning a dedicated branch for team collaboration using Mendix Studio provides
 
 For example, when a Business Developer creates a new set of pages and associated assets using Mendix Studio, the new app version can be shared in a branch line. Business users (for example, a Business Analyst) can then use Mendix Studio to review and change the content of app. When finished, the branch can be merged at the request of the Business Developer in Mendix Studio Pro. This provides the developer full control over the model changes. Effectively, this ensures that experienced developers on the the team control which elements are merged back from the branch.
 
-For more details, see [Collaborative Development](https://docs.mendix.com/refguide/collaborative-development) in the Mendix documentation.
+For more details, see [Collaborative Development](https://docs.mendix.com/refguide/collaborative-development) in the *Mendix Studio Pro Guide*.
 
 ## 2 How Does Version Control Work in Mendix?
 
@@ -53,7 +53,7 @@ From these discussions, new user stories can be created and implemented in Mendi
 
 Next to the default central Mendix Team Server versioning repository, you can choose to configure your own on-premises SVN repository instead as a versioning repository for your projects.
 
-For details on setup, see [How to Work with an On-Premises Version Control Server](https://docs.mendix.com/howto/collaboration-requirements-management/on-premises-svn-howto) in the Mendix documentation.
+For details on setup, see [How to Work with an On-Premises Version Control Server](https://docs.mendix.com/howto/collaboration-requirements-management/on-premises-svn-howto) in the *Mendix Studio Pro How-to's*.
 
 ## 5 How Does Mendix Support Branching and Merging?
 

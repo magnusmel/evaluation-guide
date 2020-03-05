@@ -59,7 +59,7 @@ A Mendix app has full support to work with this service in order to optimize res
 
 Within the SAP Cloud Platform, it is possible to connect your own identity provider (IDP) for managing the user authentication and authorization of your apps running on the SAP Cloud Platform. A Mendix app supports this service out of the box. During deployment of the Mendix app, the authentication and authorization service (XSUAA Connector for SAP Cloud Platform) is automatically bound to the app. The Mendix app will use this service to provide an SSO experience with your IDP.
 
-For more details, see [How to Use the XSUAA Connector for SAP Cloud Platform](https://docs.mendix.com/partners/sap/use-sap-xsuaa-connector) in the Mendix documentation.
+For more details, see [How to Use the XSUAA Connector for SAP Cloud Platform](https://docs.mendix.com/partners/sap/use-sap-xsuaa-connector) in the *Mendix Strategic Partners Guide*.
 
 ## 6 How Do I Connect My Mendix App with My On-Premises SAP System When Running on SAP Cloud Platform?
 

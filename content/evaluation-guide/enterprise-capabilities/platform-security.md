@@ -22,7 +22,7 @@ Apart from the company profile and settings, Mendix supports the definition of *
 
 The Mendix Developer Portal allows administrators to manage users (defined in MxID) and configure role-based user access to environments to deploy and manage apps. The Developer Portal security interface is integrated into the app project dashboard, so you have a 360° view of all the access rights for a specific person within the context of an app. Mendix enforces the segregation of duties between (at least) the developer and application administrator, whose roles are both safeguarded using personal accounts. Mendix will not allow you to configure a general management account, to ensure that all actions are traceable to a person.
 
-For more information, see [Company & App Roles](https://docs.mendix.com/developerportal/company-app-roles/) in the Mendix documentation.
+For more information, see [Company & App Roles](https://docs.mendix.com/developerportal/company-app-roles/) in the *Mendix Developer Portal Guide*.
 
 ## 4 How Does the Mendix Platform Support Multi-Factor Authentication?
 
@@ -34,7 +34,7 @@ The Mendix Platform logs relevant activities during the app delivery cycle, from
 
 ## 6 What Kind of Security Tests Are Performed on the Mendix Platform?
 
-An independent auditing firm periodically performs security audits of Mendix, which are reported through our ISO/IEC 27001 certificate, ISAE 3000 Type II assertion report, ISAE 3402 Type II assertion report, SOC 1 Type II assertion report, SOC 2 Type II assertion report, and SOC 3 Type II assertion report.
+An independent auditing firm periodically performs security audits of Mendix, which are reported through our ISO/IEC 27001 certificate, PCI DSS Level 1 Service Provider Attestation of Compliance, ISAE 3000 Type II attestation report, ISAE 3402 Type II attestation report, SOC 1 Type II attestation report, SOC 2 Type II attestation report, and SOC 3 Type II attestation report.
 
 In addition, a leading IT security firm performs penetration tests on the Mendix Platform on a monthly basis. These penetration tests are based on the Open Web Application Security Project (OWASP), Information Systems Security Assessment Framework (ISSAF), and Open Source Security Testing Methodology Manual (OSSTMM).
 

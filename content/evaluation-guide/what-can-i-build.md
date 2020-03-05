@@ -16,7 +16,7 @@ The [Mendix App Gallery](https://gallery.mendix.com) showcases all kinds of appl
 
 ## 2 What Types of Projects Are a Good Fit for Mendix? {#good-fit}
 
-A good way to explain what types of projects are a good fit with Mendix is to segment the type projects by using the Gartner’s [Pace-Layered Model](https://www.gartner.com/binaries/content/assets/events/keywords/applications/apn30/pace-layered-applications-research-report.pdf). Based on this model, an organization’s application landscape is made up of three distinct layers, each with a corresponding rate of change. This rate of change is dictated by the uniqueness of the solutions and how concrete the requirements are.
+A good way to explain what types of projects are a good fit with Mendix is to segment the type projects by using the Gartner’s *Pace-Layered Model*. Based on this model, an organization’s application landscape is made up of three distinct layers, each with a corresponding rate of change. This rate of change is dictated by the uniqueness of the solutions and how concrete the requirements are.
 
 ![Types of Application Projects Chart](attachments/blog-in-post-pace-payer-model-02.png)
 
@@ -85,7 +85,7 @@ Most legacy-migration Mendix application projects are business-driven transforma
 
 These key platform features enable you to build legacy migration apps in Mendix:
 
-*  [High Availability](enterprise-capabilities/cloud-architecture#cloud-ha) is on offer for all app environments via the Mendix Cloud, ensuring zero downtime in the case of a Mendix Runtime outage.
+*  [High Availability](enterprise-capabilities/cloud-architecture#cloud-ha) is an option for all app environments running under an enterprise license on the Mendix Cloud. It ensures zero downtime in the case of a Mendix Runtime outage.
 *  [The Mendix Application Quality Monitor](app-lifecycle/quality-monitoring#quality-monitoring) provides benchmarks in the maintainability of apps based on the ISO 25010 standard, which ensures you are not just building tomorrow's legacy.
 *  [Integration options](app-capabilities/integration-overview) are on offer via an extensive array of Mendix tools for integrating with other systems.
 *  [Data migration tooling](app-capabilities/data-querying#migrate-from-existing)  is integrated in the Mendix Platform. For example, visual data mapping allows you to create the optimal data model for a new solution (with traceability back to a system of record), rather than simply recreating the legacy system's model.

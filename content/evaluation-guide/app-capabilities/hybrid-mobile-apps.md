@@ -32,7 +32,7 @@ The Mendix Platform generates the Mendix mobile app and provides all the logic t
 
 <video controls src="attachments/Eval_Mobile_PhoneGapBuild.mp4">VIDEO</video>
 
-Mendix also leverages [PhoneGap Build](https://build.phonegap.com/) to build the mobile app. This allows you to easily manage certificates and share the mobile app binaries (for example, via QR code). It is also possible to download the source of the mobile app and build locally. For more information, see [How Can I Extend My Mobile App?](#how-can-i-extend-my-mobile-app) below as well as [How to Publish a Mendix Hybrid Mobile App in Mobile App Stores](https://docs.mendix.com/howto/mobile/publishing-a-mendix-hybrid-mobile-app-in-mobile-app-stores) in the Mendix documentation.
+Mendix also leverages [PhoneGap Build](https://build.phonegap.com/) to build the mobile app. This allows you to easily manage certificates and share the mobile app binaries (for example, via QR code). It is also possible to download the source of the mobile app and build locally. For more information, see [How Can I Extend My Mobile App?](#how-can-i-extend-my-mobile-app) below as well as [How to Publish a Mendix Hybrid Mobile App in Mobile App Stores](https://docs.mendix.com/howto/mobile/publishing-a-mendix-hybrid-mobile-app-in-mobile-app-stores) in the *Mendix Studio Pro How-to's*.
 
 ## 4 How Can I Update My Mobile App?
 

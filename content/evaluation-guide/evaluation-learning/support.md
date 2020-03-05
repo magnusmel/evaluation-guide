@@ -45,7 +45,7 @@ Mendix distinguishes two supported content categories:
 
 For Mendix Platform content, the same SLA conditions apply as for the platform. Support for Community content is up to the user or organization providing the content.
 
-For more details, see [App Store Content Support](https://docs.mendix.com/developerportal/app-store/app-store-content-support) in the Mendix documentation.
+For more details, see [App Store Content Support](https://docs.mendix.com/developerportal/app-store/app-store-content-support) in the *Mendix Developer Portal Guide*.
 
 ## 6 Mendix Support
 

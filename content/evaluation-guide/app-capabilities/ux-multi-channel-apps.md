@@ -6,7 +6,7 @@ category: "App Capabilities"
 menu_order: 10
 notoc: true
 bg: "ux"
-tags: ["mobile app", "native", "native mobile", "hybrid", "react native", "multi-channel", "offline", "ux"]
+tags: ["mobile app", "native", "native mobile", "hybrid", "react native", "multi-channel", "offline", "ux", "pwa", "progressive"]
 seo_video: "ux-multi-channel-apps"
 ---
 
@@ -20,7 +20,7 @@ Finally, in addition to many standard components, Mendix offers several options 
 
 ## How Does Mendix Support Multi-Channel Applications? {#multi}
 
-Mendix provides a single development paradigm for building multi-channel apps. You can build everything from simple responsive user experiences to complete offline-first native mobile apps with client-side logic and data synchronization.
+Mendix provides a single development paradigm for building multi-channel apps. You can build everything from simple responsive user experiences to progressive web apps or complete offline-first native mobile apps with client-side logic and data synchronization.
 
 Both business and IT developers can create multi-channel apps through Mendix's visual drag-and-drop development environment using a single model base and skill set to serve multiple use cases, including mobile back-end as a service (mBaaS).  Consolidating skills, reducing complexity, and accelerating business value with Mendix will help you to meet the demands of today’s highly mobile workforce.
 
@@ -28,7 +28,7 @@ For more information, see [How Does Mendix Support Multi-Channel Applications?](
 
 ## How Do Mendix Mobile Apps Work? {#work}
 
-With Mendix, you can develop, deploy, test, and manage mobile applications from a single integrated visual development environment. Mendix supports two type of mobile apps: [native mobile apps](native-mobile-apps) and [hybrid mobile apps](hybrid-mobile-apps).
+With Mendix, you can develop, deploy, test, and manage mobile applications from a single integrated visual development environment. Mendix supports three type of mobile apps: [native mobile apps](native-mobile-apps), [progressive web apps](progressive-web-apps), and [hybrid mobile apps](hybrid-mobile-apps).
 
 Mendix native mobile apps are truly native and are based on [React Native](https://facebook.github.io/react-native/). This results in fast performance, smooth animations, natural interaction patterns (like swipe gestures), and access to all the native device capabilities. These applications always have an [offline-first architecture](#offline).
 

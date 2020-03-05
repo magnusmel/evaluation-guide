@@ -97,7 +97,7 @@ At the moment, the integrated Mendix multi-cloud solution is provided for Public
 
 ### 2.5 When Should I Use IaaS vs. PaaS?
 
-IaaS is the virtualization of computing, network, and storage running on premises or in the public cloud. A PaaS is an extra abstraction layer on top that allows you to work with services and applications. The abstraction layer of a PaaS will allow you to think in terms of services and applications while providing capabilities like high availability, auto-scaling, auto-healing, auto-provisioning, and user governance.
+IaaS is the virtualization of computing, network, and storage running on premises or in the public cloud. A PaaS is an extra abstraction layer on top that allows you to work with services and applications. The abstraction layer of a PaaS will allow you to think in terms of services and applications while providing capabilities like auto-scaling, auto-healing, auto-provisioning, user governance, and optional high availability.
 
 The choice of either an IaaS or a PaaS in relation to Mendix is based on the amount of applications you are planning to run and who the owner is of the PaaS layer on the cloud.
 
@@ -117,4 +117,4 @@ For Linux-based applications, this is a command-line based tool called [M2EE](ht
 
 For details on supported operating systems and related databases, see [System Requirements](https://docs.mendix.com/refguide/system-requirements) in the *Mendix Studio Pro Guide*.
 
-In addition to a container-based solution, Mendix provides full support for a high availability configuration. For more information, see [How to Configure High Availability](https://docs.mendix.com/developerportal/deploy/high-availability) in the Mendix documentation.
+In addition to a container-based solution, Mendix provides full support for a high availability configuration. For more information, see [How to Configure High Availability](https://docs.mendix.com/developerportal/deploy/high-availability) in the *Mendix Developer Portal Guide*.

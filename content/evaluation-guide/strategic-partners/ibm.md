@@ -1,6 +1,6 @@
 ---
 title: "IBM"
-seo_title: "Mendix - IBM Strategic Reseller Partner"
+seo_title: "Mendix - IBM Preferred Low-code Development Platform"
 seo_description: "Learn about what type of partnership Mendix has with IBM, how to use Mendix on the IBM Cloud & which IBM services are compatible."
 category: "Strategic Partners"
 notoc: true

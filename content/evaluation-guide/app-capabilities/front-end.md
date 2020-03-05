@@ -68,7 +68,7 @@ Custom widgets can be based on JavaScript or TypeScript, and they can be used to
 
 Developers can use their preferred IDE. In addition, to ease the development of custom widgets, Mendix provides a [Yeoman generator](https://yeoman.io/) to set up a project with an easy and fast developer workflow.
 
-For more information, see [How to Build Pluggable Widgets](https://docs.mendix.com/howto/extensibility/pluggable-widgets) in the Mendix documentation.
+For more information, see [How to Build Pluggable Widgets](https://docs.mendix.com/howto/extensibility/pluggable-widgets) in the *Mendix Studio Pro How-to's*.
 
 ### 4.2 Pluggable Nanoflow Actions {#pluggable-actions}
 
@@ -84,7 +84,7 @@ You can edit JavaScript actions directly from Mendix Studio Pro with an integrat
 
 Developers can also used their preferred IDE to edit the code outside of Mendix Studio Pro, if preferred. The files will be kept in sync.
 
-For more information, see [How to Write JavaScript Actions](https://docs.mendix.com/howto/extensibility/write-javascript-actions) in the Mendix documentation.
+For more information, see [How to Write JavaScript Actions](https://docs.mendix.com/howto/extensibility/write-javascript-actions) in the *Mendix Studio Pro How-to's*.
 
 ### 4.3 Distribution
 

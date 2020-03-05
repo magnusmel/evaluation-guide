@@ -42,13 +42,13 @@ These rules will be applied anytime your application uses an entity. The rules w
 
 To gain full security for a Mendix application, you need to explicitly give access to forms, entities, and microflows before an end-user can access them. By default, no end-user can access anything. To make it easier to create prototypes and demos, there are security levels that require fewer security settings than are needed for a production system.
 
-The Mendix Runtime and the Mendix Client have out-of-the-box security measures that protect your Mendix applications against known security threats (including but not limited to SQL Injection, XSS, CSRF, and broken authentication). These security measures undergo a monthly external penetration testing.
+The Mendix Runtime and Mendix Client have out-of-the-box security measures that protect your Mendix applications against known security threats (including but not limited to SQL injection, XSS, CSRF, and broken authentication). These security measures undergo a monthly external penetration testing. The Mendix Runtime and Mendix Client are scanned daily using the latest technologies in static analysis and software composition analysis offered by industry leaders to ensure no unmitigated vulnerabilities remain. This means that whenever a Mendix application is built solely using a Mendix application development environment, customers do not have to implement static analysis or software composition analysis measures.
 
 ## 4 Does My Mendix App Comply with the OWASP Top 10?
 
 The Mendix Runtime protects your application and data according to your model, wherein the Mendix Cloud handles security at the infrastructural level. The Mendix Runtime takes care of most known security threats (OWASP top 10) out of the box, as the functionality where most common security mistakes take place is abstracted away from developers.
 
-For more information on keeping your Mendix application safe from attackers, see [How to Implement Best Practices for App Security](https://docs.mendix.com/howto/security/best-practices-security) in the Mendix documentation.
+For more information on keeping your Mendix application safe from attackers, see [How to Implement Best Practices for App Security](https://docs.mendix.com/howto/security/best-practices-security) in the *Mendix Studio Pro How-to's*.
 
 ## 5 How Does My Mendix App Support Multi-Tenancy?
 

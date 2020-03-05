@@ -113,7 +113,7 @@ Disaster recovery tests are performed quarterly on the Mendix Platform. These te
 
 ### 2.2 Does the Mendix Cloud Offers High Availability & Auto-Recovery?
 
-The Mendix Cloud offers high availability for all app environments, ensuring zero downtime in the case of a Mendix Runtime outage. Users are able to scale Mendix app environments using the Developer Portal. Furthermore, the Mendix Cloud enables auto-recovery and failover within the same availability zone.
+The Mendix Cloud offers high availability as an option to customers with an enterprise license. This ensures zero downtime in the case of a Mendix Runtime outage. Users are able to scale Mendix app environments using the Developer Portal. Furthermore, the Mendix Cloud enables auto-recovery and failover within the same availability zone.
 
 For more details, see the sections [How Does Mendix Cloud Offer High Availability?](cloud-architecture#cloud-ha), [How Does Mendix Provide Disaster Recovery?](cloud-architecture#cloud-dr), and [How Does Mendix Cloud Provide Auto-Recovery & Auto-Healing?](cloud-architecture#cloud-ar) in *Cloud Architecture*.
 
@@ -153,7 +153,7 @@ The Mendix Platform deployment architecture is based on Cloud Foundry, which is 
 
 ## 6 How Does Mendix Provide Containment Within the Mendix Cloud?
 
-A Mendix Cloud node is a grouping of virtual and autonomous instances of the Mendix Runtime that is dedicated to your company. A Mendix Cloud node includes a minimum of two environments (acceptance and production), each running in their own app environment. You can expand this to have as many environments as you need. Each app environment also includes firewall, web server, and database services. Mendix Cloud nodes run on Cloud Foundry containers. The purpose of an app container is to contain the behavior and consumption of an environment while shielding other environments (and apps) from each other.
+A Mendix Cloud node is a grouping of virtual and autonomous instances of the Mendix Runtime that is dedicated to your company. A Mendix Cloud node includes a minimum of two environments (acceptance and production), each running in their own app environment. You can expand this to have as many environments as you need. Each app environment also includes firewall, web server, and database services. Mendix Cloud nodes use Cloud Foundry containers. The purpose of an app container is to contain the behavior and consumption of an environment while shielding other environments (and apps) from each other.
 
 Cloud Foundry uses **Garden containers** that have been designed to run applications and dependencies based on a buildpack. Garden containers consists of two layers: a read-only layer with an operating system root file system, and a non-persistent read/write layer for Mendix applications and dependencies.
 
@@ -163,9 +163,11 @@ As each app environment has its own dedicated web server and firewall services, 
 
 The app environment setup allows all instances of the same application to operate identically but independently. Because the app environments are fully standardized, Mendix optimizes the combination of OS, integration software, and virtualization software while implementing the highest possible degree of security and performance. Furthermore, Mendix offers encryption for data at rest for app environments out of the box.
 
-## 7 Does Mendix Establish and Maintain Baseline Configurations for Hardening?
+## 7 Does Mendix Establish & Maintain Baseline Configurations for Hardening?
 
-The Mendix Security team has an established hardening security baseline based on international standards like SANS and CIS. This is audited by our independent third-party auditors and results in our annual published ISAE 3402 Type II report, SOC 1 Type II report, SOC 2 Type II report, SOC 3 Type II report, and ISO/IEC 27001:2013 certification.
+The Mendix Security team has an established hardening security baseline based on international standards like SANS and CIS. This is audited by our independent third-party auditors and results in our annual published ISAE 3402 Type II report, SOC 1 Type II report, SOC 2 Type II report, SOC 3 Type II report, PCI DSS Level 1 Service Provider Attestation of Compliance, and ISO/IEC 27001:2013 certification.
+
+For more information, see [Which Third-Party Security Certifications & Assurance Reports Does Mendix Have?](organization-compliance#security-certifications).
 
 ## 8 Which Physical Security Controls Are in Place for the Mendix Cloud?
 

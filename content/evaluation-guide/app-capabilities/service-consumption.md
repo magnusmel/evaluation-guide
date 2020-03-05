@@ -39,7 +39,7 @@ The Mendix Platform offers you all the control and flexibility you need when dea
 * **Proxies** – You can define proxy settings per app, but also override proxy settings per service call. This can be useful when internal web services need different proxy settings from external services.
 * **Timeouts** – To deal with unresponsive services, you can specify timeout settings. In the error handler of the service call, you can define what to do in case of an unresponsive service.
 * **Authentication** – Mendix supports different ways of providing credentials to external services, from basic HTTP authentication to completely custom SOAP header settings.
-* **Certificates (security)** – You can provide client certificates for authentication with services. For details, see [How to Use a Client Certificate](https://docs.mendix.com/howto/integration/use-a-client-certificate) in the Mendix documentation.
+* **Certificates (security)** – You can provide client certificates for authentication with services. For details, see [How to Use a Client Certificate](https://docs.mendix.com/howto/integration/use-a-client-certificate) in the *Mendix Studio Pro How-to's*.
 * **Binary attachments** – Mendix provides out-of-the-box support for efficiently sending binary data using the Message Transmission Optimization Mechanism (MTOM).
 
 {{% image_container width="600" %}}

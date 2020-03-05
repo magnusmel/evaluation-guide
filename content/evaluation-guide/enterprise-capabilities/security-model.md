@@ -18,7 +18,9 @@ Mendix application security is defined according to the parameters described bel
 
 The Mendix Platform supports configurable integrity checks for security on all the relevant aspects of applications deployed on the platform. Mendix checks the consistency of the security settings as well. For example, a person allowed to see a certain UI element that lists data from a table must also be authorized to view the data associated with that UI element.
 
-Depending on the stage of development, application and integrity checks can be applied more or less stringently. This is advantageous in development and prototype contexts to avoid unnecessary activities regarding consistency and security in the preproduction stage. The security levels **Off** and **Prototype / demo** are only allowed for apps deployed to a development and/or local test environment, not for deployments in production environments. Deployment to the Mendix Cloud (except for Free Apps) requires the **Production** security level and the complete configuration of all security settings.
+Depending on the stage of development, application and integrity checks can be applied more or less stringently. This is advantageous in development and prototype contexts to avoid unnecessary activities regarding consistency and security in the preproduction stage. The security levels **Off** and **Prototype / demo** are only allowed for local testing, Free Apps, and apps deployed to a non-Mendix Cloud environment which is specified for development. They cannot be used for deployments to production environments.
+
+Deployment of licensed apps to *all* Mendix Cloud environments requires the **Production** security level and the complete configuration of all security settings.
 
 To avoid unintended security omissions by citizen developers, apps deployed to the Mendix Cloud from Mendix Studio always require the [Production security level](https://docs.mendix.com/refguide/project-security#level). Moreover, Studio users cannot configure roles with anonymous access.
 

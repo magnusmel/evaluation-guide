@@ -14,7 +14,7 @@ SAP Cloud Platform comes with a standard identity provider (IDP) integration, al
 
 After configuring this trust, a Mendix application automatically integrates with the IDP. By mapping the Mendix application roles with the self-defined SAP Cloud Platform roles attached to your IDP, you can log in to the Mendix application with the specific assigned role using your corporate identity.
 
-For more details, see [How to Use the XSUAA Connector for SAP Cloud Platform](https://docs.mendix.com/partners/sap/use-sap-xsuaa-connector) in the Mendix documentation.
+For more details, see [How to Use the XSUAA Connector for SAP Cloud Platform](https://docs.mendix.com/partners/sap/use-sap-xsuaa-connector) in the *Mendix Strategic Partners Guide*.
 
 ## 2 How Does Mendix Support Principal Propagation Between My Mendix App & the SAP Back-End System? {#principal}
 

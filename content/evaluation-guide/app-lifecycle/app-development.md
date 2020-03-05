@@ -24,7 +24,7 @@ For information on getting started with Mendix, have a look at [First Steps with
 
 **Business Analysts** and **Citizen Developers** can work together on a single app model version in Mendix Studio. This means that all changes are directly available to all other Mendix Studio users. Mendix Studio can also be used for stakeholders to review the application and place comments on the app pages, domain model, and microflow logic.
 
-**Developers** using Mendix Studio Pro can work together on the same app model via the [Team Server](version-control) version control repository. Changes from other team members using Mendix Studio or Mendix Studio Pro can be retrieved via the Team Server. For more details, see [Collaborative Development](https://docs.mendix.com/refguide/collaborative-development) in the Mendix documentation.
+**Developers** using Mendix Studio Pro can work together on the same app model via the [Team Server](version-control) version control repository. Changes from other team members using Mendix Studio or Mendix Studio Pro can be retrieved via the Team Server. For more details, see [Collaborative Development](https://docs.mendix.com/refguide/collaborative-development) in the *MendixStudio Pro Guide*.
 
 ## 3 How Does Mendix Enable Model-Driven Development? {#enable}
 

@@ -8,8 +8,6 @@ bg: "developing"
 tags: ["reuse", "reusable component", "ui", "logic", "data", "module"]
 ---
 
-{{% todo %}}[**ADD AT LEAST 2 DIAGRAMS**]{{% /todo %}}
-
 ## 1 How Does Mendix Enable Component Reuse?
 
 One important aspect to consider when building multiple applications is whether you can reuse components of your app models across your applications. The Mendix Platform enables such reuse on different levels, both within a single app and across multiple apps. This allows you to achieve the following:
@@ -87,4 +85,4 @@ To reuse pieces of your logic within an app, you can use these methods:
 
 ### 3.3 Data
 
-Mendix [domain models](https://docs.mendix.com/refguide/domain-model) enable reusing the definition of an entity for similar entities through [inheritance](https://docs.mendix.com/refguide/generalization-and-1-1-association). This means you can define the attributes that need to be defined on multiple entities once, and then inherit these attributes in another entity. This works best when the entity inheriting the attributes is a specialization of the original entity (for example, a `delivery address` entity and `billing address` entity can both inherit from a generic `address` entity).
+Mendix [domain models](https://docs.mendix.com/refguide/domain-model) enable reusing the definition of an entity for similar entities through [inheritance](https://docs.mendix.com/refguide/generalization-and-association). This means you can define the attributes that need to be defined on multiple entities once, and then inherit these attributes in another entity. This works best when the entity inheriting the attributes is a specialization of the original entity (for example, a `delivery address` entity and `billing address` entity can both inherit from a generic `address` entity).

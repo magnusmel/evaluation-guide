@@ -37,7 +37,7 @@ For Oracle databases, the [Oracle Connector (Beta)](https://appstore.home.mendix
 Right out of the box, the [data grid](https://docs.mendix.com/refguide/data-grid) widget enables you to provide an Excel export of the data displayed in a data grid to your application users. For the bulk import or export of data in the Excel format, you can use the following two Mendix App Store modules:
 
 * [Excel Importer](https://appstore.home.mendix.com/link/app/72/) – This module allows you to define templates for the different Excel sheets you want to import. A template defines the data provided in a sheet as well as how it should be mapped and converted to the entities defined in your Mendix application. You can reuse these templates if you regularly upload the same sheets with updated data.
-* [Excel Exporter](https://appstore.home.mendix.com/link/app/726/) – This module allows you to define templates for how you want to export data from your Mendix application as an Excel sheet. Using these templates, you can regularly export data in the exact same formatted Excel sheet. For more information, see [How to Use the Excel Exporter](https://docs.mendix.com/howto/integration/using-the-excel-exporter) in the Mendix documentation.
+* [Excel Exporter](https://appstore.home.mendix.com/link/app/726/) – This module allows you to define templates for how you want to export data from your Mendix application as an Excel sheet. Using these templates, you can regularly export data in the exact same formatted Excel sheet. For more information, see [How to Use the Excel Exporter](https://docs.mendix.com/howto/integration/using-the-excel-exporter) in the *Mendix Studio Pro How-to's*.
 
 ## 4 How Can I Import & Export CSV-Formatted Data?
 

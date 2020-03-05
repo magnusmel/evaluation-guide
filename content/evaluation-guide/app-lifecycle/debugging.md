@@ -16,7 +16,7 @@ Developers can debug any deployed instance of a Mendix app running either locall
 
 Once connected, the breakpoints defined within microflows will automatically trigger the events that are trapped by Mendix Studio Pro. After triggering, the debugging tool within Mendix Studio and Mendix Studio Pro allows you to step through each microflow action, one action at a time, viewing the changing variables along the route.
 
-For more information about how to use the built-in debugging functionality, see [How to Debug Microflows](https://docs.mendix.com/howto/monitoring-troubleshooting/debug-microflows) in the Mendix documentation.
+For more information about how to use the built-in debugging functionality, see [How to Debug Microflows](https://docs.mendix.com/howto/monitoring-troubleshooting/debug-microflows) in the *Mendix Studio Pro How-to's*.
 
 ## 2 How Can I Debug a Live App Running in the Cloud? {#debug-live-app}
 
@@ -24,7 +24,7 @@ The same debugging tools available when debugging locally are available in the c
 
 <video controls  src="attachments/debugger.mp4">VIDEO</video>
 
-Read more in [How to Debug Microflows Remotely](https://docs.mendix.com/howto/monitoring-troubleshooting/debug-microflows-remotely) in the Mendix documentation.
+Read more in [How to Debug Microflows Remotely](https://docs.mendix.com/howto/monitoring-troubleshooting/debug-microflows-remotely) in the *Mendix Studio Pro How-to's*.
 
 ## 3 How Can I Debug My Own Custom Java Code in Mendix?
 
@@ -32,4 +32,4 @@ A microflow can be extended with custom Java actions. To make sure these can als
 
 When you start the debugger in Eclipse, the full Mendix application is started, and Mendix Studio Pro console logs all the relevant logging information. This makes the debugging experience seamless and fully integrated.
 
-For further information, see [How to Debug Java Actions Remotely](https://docs.mendix.com/howto/monitoring-troubleshooting/debug-java-actions) in the Mendix documentation.
+For further information, see [How to Debug Java Actions Remotely](https://docs.mendix.com/howto/monitoring-troubleshooting/debug-java-actions) in the *Mendix Studio Pro How-to's*.

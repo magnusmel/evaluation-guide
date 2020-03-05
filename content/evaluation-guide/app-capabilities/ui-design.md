@@ -90,7 +90,7 @@ Next to this, Mendix uses [Sass](https://sass-lang.com/) to define the styling. 
 
 <video controls src="attachments/SassCompiler.mp4">VIDEO</video>
 
-For more information, see the collection of [Atlas UI](https://docs.mendix.com/howto/front-end/atlas-ui/index) how-to's in the Mendix documentation.
+For more information, see the collection of [Atlas UI how-to's](https://docs.mendix.com/howto/front-end/atlas-ui/index) in the Mendix Documentation.
 
 For [native mobile apps](native-mobile-apps), the styling is based on JavaScript. For more information, see [Native Styling](https://docs.mendix.com/refguide/native-styling-refguide).
 

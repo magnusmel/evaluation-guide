@@ -52,7 +52,7 @@ All application data is stored in a relation database. In the [Mendix Cloud](men
 
 Mendix provides Java APIs to directly interact with your underlying relation database. Through the Mendix Java API, you can use Java JDBC to run SQL queries and execute stored procedures. This provides you with a very powerful way of using your data, but it requires an understanding of relational database systems and SQL. You can use database vendor-specific extensions, but this will limit the portability of your application to other databases.
 
-For more information on access to the JDBC API from Mendix, see [DataStorage.executeWithConnection]( https://apidocs.mendix.com/7/runtime/com/mendix/datastorage/DataStorage.html#executeWithConnection-java.util.function.Function-).
+For more information on access to the JDBC API from Mendix, see [DataStorage.executeWithConnection](https://apidocs.mendix.com/8/runtime/com/mendix/datastorage/DataStorage.html#executeWithConnection-java.util.function.Function-).
 
 ### 1.4 OData {#odata}
 
@@ -93,13 +93,13 @@ The [Database Connector](https://appstore.home.mendix.com/link/app/2888/) module
 
 If you prefer a manual migration through SQL statements or SQL scripts, you can do this with a local database. For example, you can set up a copy of your existing database, deploy your Mendix app that is connected to this database, and then use an SQL statement to copy data from the old tables to the Mendix tables. Once you have all the data migrated locally, you can create a backup of the Mendix data and restore this in your target Mendix environment.
 
-For more details, see [Backups](https://docs.mendix.com/developerportal/operate/backups#3-2-uploading-data) in the Mendix documentation.
+For more details, see [Backups](https://docs.mendix.com/developerportal/operate/backups#3-2-uploading-data) in the *Mendix Developer Portal Guide*.
 
 ### 3.4 Initializing Your App Database from an Existing Database
 
 When deploying a Mendix application for the first time, you have the option to initialize it with data from an existing Mendix app. The main purpose of this functionality is to enable migrating from one environment to another (for example, from the Mendix Cloud to a private cloud). Once you have migrated your non-Mendix data into Mendix data, you can use this data to initialize a new Mendix app. This will work between databases from the same vendor, and also when moving from one database vendor to another. This means that you can initialize an Azure SQL database using data in a PostgreSQL database running on your workstation.
 
-For more information, see [How to Migrate Your Mendix Database](https://docs.mendix.com/howto/data-models/migrating-your-mendix-database) in the Mendix documentation.
+For more information, see [How to Migrate Your Mendix Database](https://docs.mendix.com/howto/data-models/migrating-your-mendix-database) in the Mendix Documentation.
 
 ## 4 How Can I Use My Existing SQL Database in Mendix?
 
@@ -111,10 +111,10 @@ The Mendix Runtime provides Java APIs that enable extending the data storage beh
 
 Regarding data storage extensibility, the main Java APIs provide the following functionality:
 
-* **XPath** – APIs to [retrieve from the database using Xpath queries](https://apidocs.mendix.com/7/runtime/com/mendix/core/Core.html#retrieveXPathQuery-com.mendix.systemwideinterfaces.core.IContext-java.lang.String-)
-* **OQL** – APIs to [retrieve data from the database using OQL queries](https://apidocs.mendix.com/7/runtime/com/mendix/core/Core.html#createOQLTextGetRequestFromDataSet-java.lang.String-)
-* **SQL** – APIs to directly use the underlying [Java JDBC connection](https://apidocs.mendix.com/7/runtime/com/mendix/datastorage/DataStorage.html) to run any SQL required on your application database
-* **Entity event handlers** – APIs to register [entity event listeners](https://apidocs.mendix.com/7/runtime/com/mendix/core/actionmanagement/ListenersRegistry.html#registerAfterChangeListener-java.util.function.Consumer-) for all your entities, which can be used to extract auditing information or do a real-time export of all data changes to an external system
+* **XPath** – APIs to [retrieve from the database using Xpath queries](https://apidocs.mendix.com/8/runtime/com/mendix/core/Core.html#retrieveXPathQuery-com.mendix.systemwideinterfaces.core.IContext-java.lang.String-)
+* **OQL** – APIs to [retrieve data from the database using OQL queries](https://apidocs.mendix.com/8/runtime/com/mendix/core/Core.html#createOQLTextGetRequestFromDataSet-java.lang.String-)
+* **SQL** – APIs to directly use the underlying [Java JDBC connection](https://apidocs.mendix.com/8/runtime/com/mendix/datastorage/DataStorage.html) to run any SQL required on your application database
+* **Entity event handlers** – APIs to register [entity event listeners](https://apidocs.mendix.com/8/runtime/com/mendix/core/actionmanagement/ListenersRegistry.html#registerAfterChangeListener-java.util.function.Consumer-) for all your entities, which can be used to extract auditing information or do a real-time export of all data changes to an external system
 
 ## 6 How Can I Control the Connection Pooling?
 

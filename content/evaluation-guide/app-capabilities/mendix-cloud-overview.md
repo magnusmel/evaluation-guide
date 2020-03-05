@@ -10,7 +10,7 @@ tags: ["mendix cloud", "high availability", "uptime"]
 
 ## 1 How Can I Run Mendix on the Mendix Cloud {#mendix-cloud}
 
-The Mendix Cloud is the deployment solution in which Mendix provides hosting environments for customers. The Mendix Cloud is built on top of Cloud Foundry and AWS, is available in multiple regions around the globe, and comes with high availability options. For details on the Mendix Cloud architecture, see [Cloud Architecture](../enterprise-capabilities/cloud-architecture).
+The Mendix Cloud is the deployment solution in which Mendix provides hosting environments for customers. The Mendix Cloud is built on top of Cloud Foundry and Amazon Web Services (AWS), is available in multiple regions around the globe, and comes with high availability options. For details on the Mendix Cloud architecture, see [Cloud Architecture](../enterprise-capabilities/cloud-architecture).
 
 Mendix Cloud is the most optimized cloud to run Mendix Applications. It comes standard with deep insights, alerting, high availability, and backups, all of which is self-service available. For more information, see [Mendix Cloud Features](mendix-cloud-features).
 
@@ -40,15 +40,15 @@ New applications can be placed in any of the available regions. Mendix adds new 
 
 ![Mendix and Partner Cloud Regions Map](attachments/mx-cloud-regions.png)
 
-## 4 How Does Mendix Cloud support VPC? {#mendix-cloud-vpc}
+## 4 How Does Mendix Cloud support Virtual Private Cloud? {#mendix-cloud-vpc}
 
-Mendix Cloud provides a specific edition to run within the Virtual Private Cloud of the customer. This edition is called **Mendix Cloud Dedicated**.
+Mendix Cloud provides a specific edition to run in the Virtual Private Cloud (VPC) of the customer. This edition is called **Mendix Cloud Dedicated**.
 
-Mendix Cloud Dedicated makess it possible to get a dedicated instance of the Mendix Cloud running within the AWS account of the customer. This instance will consist a full Mendix Cloud region setup, running within 2 availabiltiy zone of AWS, connected to the private (corporate) network of the customer.   
+Mendix Cloud Dedicated makes it possible to have a dedicated instance of the Mendix Cloud running on the AWS account of the customer. This instance will consist of a full Mendix Cloud region setup, running within two availability zones of AWS, connected to the private (corporate) network of the customer.   
 
-This instance is still fully managed and operated by Mendix. The experiance and the architecture is identical to **Mendix Cloud Public**. 
+This instance is still fully managed and operated by Mendix. The user experience and the architecture is identical to **Mendix Cloud Public**. 
 
-![Mendix Cloud Dedidcated](attachments/mx-cloud-dedicated.png)
+![Mendix Cloud Dedicated](attachments/mx-cloud-dedicated.png)
 
 ## 5 How Does Mendix Cloud Support High Availability?
 
@@ -108,9 +108,9 @@ The best practice for setting up a secure connection between the Mendix Cloud an
 
 Mendix supports this way of connecting because a VPN comes with significant more maintenance as well as security risk overhead. This is because a VPN will connect to another network not at the application level but at the TCP level. The consequence of this is that, unless you secure your own network with an extra firewall, you are potentially opening your on-premises network to a public network. This is not a best practice and thus not supported by Mendix.
 
-In case pear-to-pear integration is not possible becasue of corporate policies it is also possilbe to use Mendix Cloud Dedicated. 
+If peer-to-peer integration is not possible because of corporate policies, it is also possible to use Mendix Cloud Dedicated. 
 
-See for more details: [How does Mendix Cloud support VPC?](#mendix-cloud-vpc)
+See for more details: [How does Mendix Cloud support Virtual Private Cloud?](#mendix-cloud-vpc)
 
 ## 10 How Can the Mendix Support Team Assist Me When Running in the Mendix Cloud?
 

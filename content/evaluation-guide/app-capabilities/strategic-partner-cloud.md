@@ -75,12 +75,10 @@ For details on this integration, see the section [How Does Mendix Support Princi
 
 ## 8 How Can I Run Mendix on IBM Cloud? {#ibm-cloud}
 
-IBM has ensorced Mendix has their  low-code development platform on top of IBM Cloud. This partnership brings a seamless integration between Mendix Platform and IBM Cloud.
+IBM has endorsed Mendix has their low-code development platform on top of IBM Cloud. This partnership brings seamless integration between Mendix Platform and IBM Cloud.
 
-IBM Cloud can be selected within the Cloud Settings of your app, so you can deploy your applicatin with 1-click to the IBM Cloud or IBM Cloud is selected by default when selecting one of the IBM Starter apps. 
+IBM Cloud can be selected within the Cloud Settings of your app, so you can deploy your application with 1-click to the IBM Cloud. IBM Cloud is selected by default when selecting one of the IBM Starter apps.
 
 ![IBM-Cloud-integration](attachments/ibm_integration-cf2.png)
 
-IBM Cloud integration provided within the Mendix Portal is based on IBM CLoud, Cloud Foundry. 
-
-
+IBM Cloud integration provided within the Mendix Developer Portal is based on IBM Cloud, Cloud Foundry. 

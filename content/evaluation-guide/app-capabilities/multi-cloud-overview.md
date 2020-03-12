@@ -12,7 +12,7 @@ tags: ["multi cloud", "cloud", "deployment", "on premises", "IaaS", "PaaS"]
 
 An application built with Mendix is based on a cloud-native design and conforms to [Twelve-Factor App](https://12factor.net/) principles. The Mendix Runtime is fully optimized to run in a container technology that is compatible with most modern cloud platform offerings like Kubernetes and Cloud Foundry. Mendix apps are thus able to utilize benefits of these cloud platforms such as auto-scaling, auto-provisioning, auto-healing, low infra-overhead, CI/CD support, and cloud interoperability. For more information on these Mendix architecture principles, see [Architecture Principles](../enterprise-capabilities/architecture-principles).
 
-Within this flexible model, Mendix supports a large variety of deployment options that allow you to run your Mendix application on a public, virtual private, private, or hybrid cloud or via a traditional (virtual) server.
+Within this flexible model, Mendix supports a large variety of deployment options that allow you to run your Mendix application on a public, virtual private, private, hybrid, or multi cloud or via a traditional (virtual) server.
 
 {{% image_container width="600" %}}
 ![Multi-Cloud Infrastructure](attachments/multi-cloud.png)
@@ -20,7 +20,7 @@ Within this flexible model, Mendix supports a large variety of deployment option
 
 ### 1.1 Public Cloud
 
-If you want to acquire the best utilization rate for your infrastructure, to maintain optimal flexibility, and to convert your capital investment into operational expenses, the public cloud is the best choice. Mendix has support for most public cloud vendors, such as Mendix Cloud, IBM, SAP, Microsoft, AWS, and Google. For Mendix Cloud, SAP, and IBM, we deliver a fully integrated experience in which you can run your app with a single click via your cloud choice.
+If you want to achieve the best utilization rate for your infrastructure, maintain optimal flexibility, and convert your capital investment into operational expenses, the public cloud is the best choice. Mendix has support for most public cloud vendors, such as Mendix Cloud, IBM, SAP, Microsoft, AWS, and Google. For public cloud providers supporting Cloud Foundry, such as Mendix Cloud, SAP, and IBM, we deliver a fully integrated experience where you can deploy your app with a single click to your choice of cloud.
 
 {{% image_container width="600" %}}
 ![Multi-Cloud Deployment - IBM, SAP, Azure, AWS](attachments/multi-cloud-deploy.png)
@@ -46,7 +46,7 @@ In the Mendix Platform, the development and execution of your application are fu
 
 ### 2.1 How Can I Run Mendix in the Public Cloud? {#running-public-cloud}
 
-Mendix applications can run on all common public cloud providers, like Amazon Web Services, Microsoft Azure, IBM Cloud, Google Cloud Platform, SAP Cloud Platform, Redhat Openshift, and Pivotal Web Services.
+Mendix applications can run on all common public cloud providers, such as [Mendix Cloud](mendix-cloud-overview), Amazon Web Services, Microsoft Azure, IBM Cloud, Google Cloud Platform, SAP Cloud Platform, Redhat Openshift, and Pivotal Web Services.
 
 You can choose the methodology to use – from container-based to VM-based, every methodology is possible.
 
@@ -54,9 +54,11 @@ For more information, see the section [Which Cloud Providers Can I Use for Mendi
 
 ### 2.2 How Can I Run Mendix in a Virtual Private Cloud? {#vpc}
 
-A virtual private cloud is a public cloud with a dedicated infrastructure like a network, storage, and/or computing allocated to a customer. In most situations, this cloud is only accessible when connected to the customer's network. Therefore, the Mendix Developer Portal provides a set of APIs that make it possible to configure tools like Jenkins or Microsoft Visual Team services to automate deployment within a VPC. This ensures developers maintain the benefit of the one-click deployment experience when using the Mendix Platform in combination with a VPC.
+A virtual private cloud is a public cloud with a dedicated infrastructure like network connectivity, storage, and/or computing allocated to a customer. In most situations, this cloud is only accessible when connected to the customer's network. To run in such a cloud [Mendix Cloud Dedicated](mendix-cloud-overview#mendix-cloud-vpc) or [Mendix for Private Cloud](mendix-for-private-cloud#MX4PC) can be used. These two options provide fully recommended ways of running Mendix applications within your VPC.  
 
-For more information, see [CI/CD](../app-lifecycle/cicd).
+This ensures developers maintain the benefit of the one-click deployment experience when using the Mendix Platform in combination with a VPC.
+
+For custom deployment strategies, the Mendix Developer Portal provides a set of APIs that make it possible to configure tools like Jenkins or Microsoft Visual Team services to automate deployment within a VPC. For more information, see [CI/CD](../app-lifecycle/cicd).
 
 ### 2.3 How Can I Run Mendix in a Private Cloud or On Premises? {#on-prem}
 
@@ -66,7 +68,12 @@ If you are required to run your software on your own premises, you can choose an
 * IaaS
 * PaaS
 
-In terms of speed, self-service, and governance, the **PaaS** level has significant benefits. Because of the small footprint of a Mendix application, having a two-node (VMs) Kubernetes cluster allows you to run multiple Mendix applications (in multiple environments) with auto-scaling and auto-healing capabilities and high availability options. This is also possible when running Mendix on traditional servers, but the setup time and maintenance will be significantly higher.
+In terms of speed, self-service, and governance, the **PaaS** level has significant benefits. For this reason Kubernetes is the abstraction layer Mendix has adopted as the standard to run Mendix Application in an on-premises scenario. 
+For more details see [Mendix for Private Cloud](mendix-for-private-cloud#MX4PC)   
+
+Because of the small footprint of a Mendix application, having a two-node (VMs) Kubernetes cluster allows you to run multiple Mendix applications (in multiple environments) with high availability, as well as providing auto-scaling and auto-healing capabilities. 
+
+The use of traditional servers is also still possible, but the setup time and maintenance will be significantly higher.
 
 For more information, see the section [Which Operating Systems Do Mendix Studio and Mendix Studio Pro Support?](../app-lifecycle/app-development#operating-systems) in *App Development*.
 
@@ -86,7 +93,19 @@ It is even possible to switch between cloud providers, so you can start developi
 ![Selecting a Cloud Platform](attachments/mutli-cloud-selection.png)
 {{% /image_container %}}
 
-At the moment, the integrated Mendix multi-cloud solution is provided for Mendix Cloud, IBM Cloud, and SAP Cloud. More clouds will be added to the Mendix multi-cloud portfolio in the near future.
+At present, the integrated Mendix multi-cloud solution is provided for the following public cloud providers:
+
+* Mendix Cloud
+* IBM Cloud
+* SAP Cloud
+
+and for the following (virtual) private cloud providers:
+
+* Redhat Openshift
+* Azure AKS
+* AWS EKS
+
+More clouds will be added to the Mendix multi-cloud portfolio in the near future.
 
 ### 2.5 When Should I Use IaaS vs. PaaS?
 
@@ -94,9 +113,9 @@ IaaS is the virtualization of computing, network, and storage running on premise
 
 The choice of either an IaaS or a PaaS in relation to Mendix is based on the amount of applications you are planning to run and who the owner is of the PaaS layer on the cloud.
 
-If you are able to consume a PaaS on demand from a public cloud, this will always be the best fit for a Mendix hosting solution based on cost, speed, and control.
+If you are able to consume a PaaS on demand from a public cloud or as a (virtual) private cloud, this will always be the best fit as a Mendix hosting solution based on cost, speed, and control.
 
-In the scenario that you have access to an IaaS and you need to choose a PaaS layer yourself (like Kubernetes or Cloud Foundry), the key factor is the number of applications. A Kubernetes cluster can be beneficial when you are planning on running more than two applications, wherein each app contains a test, acceptance, and one or more production environments. When you are planning on running more than 10 applications, a Cloud Foundry solution could be beneficial (this has to do with the footprint and maintenance of the PaaS layer). Finally, for a single application, a traditional server-based solution will be enough.
+In the scenario that you have access to an IaaS and you need to choose a PaaS layer yourself (like Kubernetes or Cloud Foundry), the key factor is the number of applications. A Kubernetes cluster can be beneficial when you are planning on running more than two applications, where each app contains a test, acceptance, and one or more production environments.  When you are planning on running more than 10 applications, a Cloud Foundry solution could be beneficial (this has to do with the footprint and maintenance of the PaaS layer). Finally, for a single application, a traditional server-based solution will be enough.
 
 ## 3 How Can I Run Mendix on a (Virtual) Server or IaaS?
 

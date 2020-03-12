@@ -75,26 +75,10 @@ For details on this integration, see the section [How Does Mendix Support Princi
 
 ## 8 How Can I Run Mendix on IBM Cloud? {#ibm-cloud}
 
-IBM has selected Mendix has their standard low-code development platform on top of IBM Cloud. In this partnership, IBM has created a seamless integration with the Mendix development lifecycle, so it is possible to run your Mendix application with one click on IBM Cloud and consume the rich set of IBM services.
+IBM has endorsed Mendix has their low-code development platform on top of IBM Cloud. This partnership brings seamless integration between Mendix Platform and IBM Cloud.
 
-Within the standard application development experience of IBM, Mendix has been adopted with a few starter kits. These starter kits allow you to start a new web, mobile, or Watson-oriented application on IBM Cloud. When creating an app, a full toolchain is automatically created with a delivery pipeline to run your application on IBM Cloud Foundry or Kubernetes.
+IBM Cloud can be selected within the Cloud Settings of your app, so you can deploy your application with 1-click to the IBM Cloud. IBM Cloud is selected by default when selecting one of the IBM Starter apps.
 
-{{% image_container width="700" %}}
-![IBM Toolchain](attachments/ibm-toolchain.png)
-{{% /image_container %}}
+![IBM-Cloud-integration](attachments/ibm_integration-cf2.png)
 
-This pipeline is integrated with the Mendix package repository. As soon as a new release package is created within the Mendix Platform, the pipeline is notified and the user can deploy the app with single click.
-
-{{% image_container width="600" %}}
-![Mendix IBM Portal](attachments/mx-ibm-portal.png)
-{{% /image_container %}}
-
-## 9 How Can I Select the Way to Run Mendix on IBM Cloud?
-
-When selecting an IBM starter kit (via either the IBM Cloud Portal or the Mendix Platform Portal), the choice for deployment type is presented during the app creation flow:
-
-{{% image_container width="550" %}}
-![IBM Deployment Types](attachments/select-ibm-deployment-type.png)
-{{% /image_container %}}
-
-Both deployment options provide full high availability as well as horizontal and vertical scaling.
+IBM Cloud integration provided within the Mendix Developer Portal is based on IBM Cloud, Cloud Foundry. 

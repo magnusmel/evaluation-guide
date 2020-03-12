@@ -54,7 +54,7 @@ For more information, see the section [Which Cloud Providers Can I Use for Mendi
 
 ### 2.2 How Can I Run Mendix in a Virtual Private Cloud? {#vpc}
 
-A virtual private cloud is a public cloud with a dedicated infrastructure like network connectivity, storage, and/or computing allocated to a customer. In most situations, this cloud is only accessible when connected to the customer's network. To run in such a cloud [Mendix Cloud Dedicated](mendix-cloud-overview#mendix-cloud-vpc) or [Mendix for Private Cloud](mendix-for-private-cloud#MX4PC) can be used. These two options provide a fully opinionated way of running Mendix applications within your VPC.  
+A virtual private cloud is a public cloud with a dedicated infrastructure like network connectivity, storage, and/or computing allocated to a customer. In most situations, this cloud is only accessible when connected to the customer's network. To run in such a cloud [Mendix Cloud Dedicated](mendix-cloud-overview#mendix-cloud-vpc) or [Mendix for Private Cloud](mendix-for-private-cloud#MX4PC) can be used. These two options provide fully recommended ways of running Mendix applications within your VPC.  
 
 This ensures developers maintain the benefit of the one-click deployment experience when using the Mendix Platform in combination with a VPC.
 

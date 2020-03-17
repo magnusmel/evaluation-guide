@@ -1,7 +1,7 @@
 ---
 title: "Mendix For Private Cloud"
 seo_title: "Mendix For Private Cloud - Deployment Management, VPC, Operators, Kubernetes"
-seo_description: "Mendix For Private Cloud provides a full Mendix deployment experience ontop of your own Kubernetes installation running in Private or Virtual  Private Cloud"
+seo_description: "Mendix For Private Cloud provides a full Mendix deployment experience on top of your own Kubernetes installation running in Private or Virtual  Private Cloud"
 parent: "deployment"
 menu_order: 40
 bg: "multicloud"
@@ -14,7 +14,7 @@ Mendix For Private Cloud provides the 'LowOps' 1-click deployment experience for
 
 This allows Mendix development teams to manage their application lifecyle (such as Development, Testing, Acceptance, Production), without the need for direct access to their Kubernetes infrastructure or needing to have knowledge of Kubernetes.
 
-The Mendix for Private Cloud experience also includes the ablity to access directly the logging and metrics solution connected to the Kubernetes clusters. 
+The Mendix for Private Cloud experience also includes the ability to access directly the logging and metrics solution connected to the Kubernetes clusters. 
 
 For Kubernetes Administrators, the solution will provide a single initialization script to run on the Kubernetes cluster to install the necessary Mendix for Private Cloud components.
 
@@ -42,7 +42,7 @@ The Mendix Operator has only rights to perform actions in its own namespace. App
 
 ## 4 How Can I Use Mendix for Private Cloud Standalone? {#standalone}
 
-If corporate policies won't allow you to have an online connection to the private cloud, it is possilbe to use Mendix for Private Cloud in **Standalone** mode. In this situation the developer will not be able to use the online portal to manage their applications, but will use a custom CI/CD solution to create the Mendix CR for a new version of the Mendix application.
+If corporate policies won't allow you to have an online connection to the private cloud, it is possible to use Mendix for Private Cloud in **Standalone** mode. In this situation the developer will not be able to use the online portal to manage their applications, but will use a custom CI/CD solution to create the Mendix CR for a new version of the Mendix application.
 
 In these circumstances, a local source code repository is typically used for the models of the Mendix application. By creating a CI/CD pipeline where 'OnCommit' creates the Mendix CR, the integration is established. 
 
@@ -60,7 +60,7 @@ With Mendix for Private Cloud, you can create multiple environments for an appli
 
 ![Mendix for Private Cloud multi cloud deployment](attachments/mx4pc-multi-cloud.png)
 
-## 7 How Can I Manage the Authorisation of my (Virtual) Private Cloud  
+## 7 How Can I Manage the Authorization of my (Virtual) Private Cloud  
 
 Mendix for Private Cloud defines three standard roles: Cluster Administrator, Cluster Manager, and Developer. 
 

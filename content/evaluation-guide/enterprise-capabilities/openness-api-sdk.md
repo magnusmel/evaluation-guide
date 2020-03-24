@@ -16,7 +16,7 @@ Mendix [APIs](https://docs.mendix.com/apidocs-mxsdk/apidocs/) are available on m
 
 ### 1.1 Runtime APIs
 
-Each application built using the Mendix Platform has powerful API options. Every element of the application model can be easily provided as part of the API through REST, OData, or SOAP services. You can use [Java to extend the runtime](https://apidocs.rnd.mendix.com/8/runtime), [JavaScript to provide custom Widgets](https://apidocs.rnd.mendix.com/8/client/index.html), and SQL to extend the data storage.
+Each application built using the Mendix Platform has powerful API options. Every element of the application model can be easily provided as part of the API through REST, OData, or SOAP services. You can use [Java to extend the runtime](https://apidocs.rnd.mendix.com/8/runtime/index.html), [JavaScript to provide custom Widgets](https://apidocs.rnd.mendix.com/8/client/index.html), and SQL to extend the data storage.
 
 ### 1.2. Platform APIs
 

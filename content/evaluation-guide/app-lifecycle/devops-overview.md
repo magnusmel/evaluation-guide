@@ -12,7 +12,7 @@ tags: ["devops", "continuous integration", "deploying", "monitoring", "apm", "da
 
 The Mendix Platform enables development teams to embrace the DevOps way of working. This means that  a single team can both develop applications and maintain and support those apps in production while adhering to enterprise requirements (for compliancy or high availability, for example).
 
-With [one-click deployment](https://docs.mendix.com/developerportal/deploy/mendix-cloud-deploy#5-deploying-a-free-app-to-the-mendix-cloud) and out-of-the-box monitoring for all apps, the Mendix Platform provides the basis for development teams to adopt DevOps practices. In addition, the [Mendix Platform APIs](https://apidocs.mendix.com/) enable development teams to complement the capabilities of the Mendix Platform with their third-party DevOps tools of choice.
+With [one-click deployment](https://docs.mendix.com/developerportal/deploy/mendix-cloud-deploy#5-deploying-a-free-app-to-the-mendix-cloud) and out-of-the-box monitoring for all apps, the Mendix Platform provides the basis for development teams to adopt DevOps practices. In addition, the [Mendix Platform APIs](https://apidocs.rnd.mendix.com/index.html) enable development teams to complement the capabilities of the Mendix Platform with their third-party DevOps tools of choice.
 
 Through the same APIs, teams can implement CI/CD pipelines on top of the Mendix Platform to fully automate their DevOps processes, including the build, test, and release steps. Documentation and reference implementations for the most commonly used tools are available (for details, see [Can I Use My Own DevOps Tools with Mendix?](#devops-tools) below).
 
@@ -79,7 +79,7 @@ From both Mendix Studio Pro and Mendix Studio, you can easily publish your app d
 <video controls src="attachments/MA_SandboxDeployment.mp4">VIDEO</video>
 Once the development team is satisfied with the version of the app that is running in development, the Mendix Developer Portal allows users to quickly stage the app to further environments, such as an acceptance environment. before it is finally released to the production environment.
 
-Deployment operations can be easily automated by the development team through [platform APIs](https://apidocs.mendix.com/) and with third-party CI/CD tools like Jenkins, GitLab-CI, or Visual Studio Team Services.
+Deployment operations can be easily automated by the development team through [platform APIs](https://apidocs.rnd.mendix.com/index.html) and with third-party CI/CD tools like Jenkins, GitLab-CI, or Visual Studio Team Services.
 
 For more details, see [Operations, Deployment, and Release](ops-deployment-release).
 
@@ -97,7 +97,7 @@ For an overview of the features available for development teams to run apps with
 
 ## 3 Can I Use My Own DevOps Tools with Mendix? {#devops-tools}
 
-Development teams that like to use third-party tools for certain tasks can integrate those with the Mendix Platform through the [Mendix Platform APIs](https://apidocs.mendix.com/). For example, continuous integration services like [Visual Studio Team Services](https://github.com/mendix/azure-kubernetes-cicd-reference-impl-vsts), [Jenkins](https://github.com/mendix/azure-kubernetes-cicd-reference-impl), or  [GitLab-CI](https://about.gitlab.com/features/gitlab-ci-cd/) can be easily configured as CI pipeline orchestrators on top of the Mendix Platform.
+Development teams that like to use third-party tools for certain tasks can integrate those with the Mendix Platform through the [Mendix Platform APIs](https://apidocs.rnd.mendix.com/index.html). For example, continuous integration services like [Visual Studio Team Services](https://github.com/mendix/azure-kubernetes-cicd-reference-impl-vsts), [Jenkins](https://github.com/mendix/azure-kubernetes-cicd-reference-impl), or  [GitLab-CI](https://about.gitlab.com/features/gitlab-ci-cd/) can be easily configured as CI pipeline orchestrators on top of the Mendix Platform.
 
 You can use application performance management services like [Datadog](https://www.datadoghq.com/), [New Relic](https://docs.mendix.com/developerportal/deploy/setting-up-monitoring-with-new-relic), and [AppDynamics](https://docs.mendix.com/howto/monitoring-troubleshooting/manage-app-performance-with-appdynamics) to monitor and manage the performance of Mendix apps.
 

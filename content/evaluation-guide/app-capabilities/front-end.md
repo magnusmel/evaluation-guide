@@ -64,7 +64,7 @@ Mendix makes it possible to create extensions that seamlessly integrate with Men
 
 Mendix supports building custom UI components—called pluggable widgets—that can be used for different types of visualizations and interactions. You can define all the parameter types and make these widgets reusable. The input parameters are transformed into easy-to-use settings screens that can be configured from Mendix Studio and Mendix Studio Pro. In addition, custom widgets have preview capabilities for a WYSIWYG effect, making it easy to get an impression of the widget and quickly verify its configuration.
 
-Custom widgets can be based on JavaScript or TypeScript, and they can be used to create custom inputs, visualizations, and logic as well as to utilize device capabilities. Mendix offers an extensive [Client API](https://apidocs.mendix.com/8/client/) to leverage the Mendix functionality. For other functionality, third-party libraries and can easily be integrated by using [npm](https://www.npmjs.com/)
+Custom widgets can be based on JavaScript or TypeScript, and they can be used to create custom inputs, visualizations, and logic as well as to utilize device capabilities. Mendix offers an extensive [Client API](https://apidocs.rnd.mendix.com/8/client/index.html) to leverage the Mendix functionality. For other functionality, third-party libraries and can easily be integrated by using [npm](https://www.npmjs.com/)
 
 Developers can use their preferred IDE. In addition, to ease the development of custom widgets, Mendix provides a [Yeoman generator](https://yeoman.io/) to set up a project with an easy and fast developer workflow.
 

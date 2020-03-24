@@ -30,7 +30,7 @@ All custom Java actions can be made available in the microflow toolbox, which ea
 
 <video controls src="attachments/OE_ExposeJavaActionAsMicroflowAction-1.mp4">VIDEO</video>
 
-Within the Java action implementation, you can use the [Mendix Runtime APIs](https://apidocs.mendix.com/8/runtime/) to create a tight integration between the Mendix objects and your Java code.
+Within the Java action implementation, you can use the [Mendix Runtime APIs](https://apidocs.rnd.mendix.com/8/runtime/index.html) to create a tight integration between the Mendix objects and your Java code.
 
 For more information on using custom Java actions, explore this Mendix documentation:
 
@@ -38,7 +38,7 @@ For more information on using custom Java actions, explore this Mendix documenta
 * [How to Extend Your Application with Custom Java](https://docs.mendix.com/howto/logic-business-rules/extending-your-application-with-custom-java)
 * [How to Use the Java API](https://docs.mendix.com/howto/logic-business-rules/java-api-tutorial)
 * [Java Programming](https://docs.mendix.com/refguide/java-programming)
-* [Mendix Java API](https://apidocs.mendix.com/8/runtime/)
+* [Mendix Java API](https://apidocs.rnd.mendix.com/8/runtime/index.html)
 
 ### 1.2 Pluggable Widgets {#custom-widgets}
 
@@ -58,14 +58,14 @@ Please note that with the availability of native REST publishing, the need for c
 
 All the query languages supported by Mendix can be used through a Java API. This includes XPath, OQL, and SQL:
 
-* XPath can be used from Java via the [retrieveXpath](https://apidocs.mendix.com/8/runtime/com/mendix/core/Core.html#retrieveXPathQuery-com.mendix.systemwideinterfaces.core.IContext-java.lang.String-) methods
-* OQL can be used from Java via the [retrieveOQL](https://apidocs.mendix.com/8/runtime/com/mendix/core/Core.html#retrieveOQLDataTable-com.mendix.systemwideinterfaces.core.IContext-com.mendix.systemwideinterfaces.connectionbus.requests.types.IGetRequest-) methods
-	* OQL queries defined in your model in data sets can be accessed through the [createOQLTextGetRequestFromDataSet](https://apidocs.mendix.com/8/runtime/com/mendix/core/Core.html#createOQLTextGetRequestFromDataSet-java.lang.String-) method
-* SQL can be used from Java via the [executeWithConnection](https://apidocs.mendix.com/8/runtime/com/mendix/datastorage/DataStorage.html) method
+* XPath can be used from Java via the [retrieveXpath](https://apidocs.rnd.mendix.com/8/runtime/com/mendix/core/Core.html#retrieveXPathQuery-com.mendix.systemwideinterfaces.core.IContext-java.lang.String-) methods
+* OQL can be used from Java via the [retrieveOQL](https://apidocs.rnd.mendix.com/8/runtime/com/mendix/core/Core.html#retrieveOQLDataTable-com.mendix.systemwideinterfaces.core.IContext-com.mendix.systemwideinterfaces.connectionbus.requests.types.IGetRequest-) methods
+	* OQL queries defined in your model in data sets can be accessed through the [createOQLTextGetRequestFromDataSet](https://apidocs.rnd.mendix.com/8/runtime/com/mendix/core/Core.html#createOQLTextGetRequestFromDataSet-java.lang.String-) method
+* SQL can be used from Java via the [executeWithConnection](https://apidocs.rnd.mendix.com/8/runtime/com/mendix/datastorage/DataStorage.html) method
 
 XPath and OQL are both portable, meaning their behavior will be identical no matter what database you use. SQL enables using all the features of your chosen database. One scenario for this is to use database-specific indexes to increase the performance of your queries.
 
-You can use Mendix's Java APIs to register [entity event listeners](https://apidocs.mendix.com/8/runtime/com/mendix/core/actionmanagement/ListenersRegistry.html) for all your entities. This can be used to extract auditing information or to do a real-time export of all the data changes to an external system.
+You can use Mendix's Java APIs to register [entity event listeners](https://apidocs.rnd.mendix.com/8/runtime/com/mendix/core/actionmanagement/ListenersRegistry.html) for all your entities. This can be used to extract auditing information or to do a real-time export of all the data changes to an external system.
 
 For more information, see this Mendix documentation:
 

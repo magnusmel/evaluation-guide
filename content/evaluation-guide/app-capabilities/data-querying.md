@@ -52,7 +52,7 @@ All application data is stored in a relation database. In the [Mendix Cloud](men
 
 Mendix provides Java APIs to directly interact with your underlying relation database. Through the Mendix Java API, you can use Java JDBC to run SQL queries and execute stored procedures. This provides you with a very powerful way of using your data, but it requires an understanding of relational database systems and SQL. You can use database vendor-specific extensions, but this will limit the portability of your application to other databases.
 
-For more information on access to the JDBC API from Mendix, see [DataStorage.executeWithConnection](https://apidocs.mendix.com/8/runtime/com/mendix/datastorage/DataStorage.html#executeWithConnection-java.util.function.Function-).
+For more information on access to the JDBC API from Mendix, see [DataStorage.executeWithConnection](https://apidocs.rnd.mendix.com/8/runtime/com/mendix/datastorage/DataStorage.html#executeWithConnection-java.util.function.Function-).
 
 ### 1.4 OData {#odata}
 
@@ -111,10 +111,10 @@ The Mendix Runtime provides Java APIs that enable extending the data storage beh
 
 Regarding data storage extensibility, the main Java APIs provide the following functionality:
 
-* **XPath** – APIs to [retrieve from the database using Xpath queries](https://apidocs.mendix.com/8/runtime/com/mendix/core/Core.html#retrieveXPathQuery-com.mendix.systemwideinterfaces.core.IContext-java.lang.String-)
-* **OQL** – APIs to [retrieve data from the database using OQL queries](https://apidocs.mendix.com/8/runtime/com/mendix/core/Core.html#createOQLTextGetRequestFromDataSet-java.lang.String-)
-* **SQL** – APIs to directly use the underlying [Java JDBC connection](https://apidocs.mendix.com/8/runtime/com/mendix/datastorage/DataStorage.html) to run any SQL required on your application database
-* **Entity event handlers** – APIs to register [entity event listeners](https://apidocs.mendix.com/8/runtime/com/mendix/core/actionmanagement/ListenersRegistry.html#registerAfterChangeListener-java.util.function.Consumer-) for all your entities, which can be used to extract auditing information or do a real-time export of all data changes to an external system
+* **XPath** – APIs to [retrieve from the database using Xpath queries](https://apidocs.rnd.mendix.com/8/runtime/com/mendix/core/Core.html#retrieveXPathQuery-com.mendix.systemwideinterfaces.core.IContext-java.lang.String-)
+* **OQL** – APIs to [retrieve data from the database using OQL queries](https://apidocs.rnd.mendix.com/8/runtime/com/mendix/core/Core.html#createOQLTextGetRequestFromDataSet-java.lang.String-)
+* **SQL** – APIs to directly use the underlying [Java JDBC connection](https://apidocs.rnd.mendix.com/8/runtime/com/mendix/datastorage/DataStorage.html) to run any SQL required on your application database
+* **Entity event handlers** – APIs to register [entity event listeners](https://apidocs.rnd.mendix.com/8/runtime/com/mendix/core/actionmanagement/ListenersRegistry.html#registerAfterChangeListener-java.util.function.Consumer-) for all your entities, which can be used to extract auditing information or do a real-time export of all data changes to an external system
 
 ## 6 How Can I Control the Connection Pooling?
 

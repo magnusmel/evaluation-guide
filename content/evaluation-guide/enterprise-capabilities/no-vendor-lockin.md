@@ -16,7 +16,7 @@ You own (via IP rights) all of your data and models, and you are free to do with
 
 ### 1.1 Exporting Your App Models {#export-model}
 
-By using the [Mendix SDK](https://docs.mendix.com/apidocs-mxsdk/mxsdk/), you can programmatically access your application models. Of course, the SDK comes with [full documentation](https://apidocs.mendix.com/modelsdk/latest/index.html) of the models used to define your app. This enables you to automate a migration to alternative low-code platforms as well as to 3GL languages and platforms like Java and Hibernate.
+By using the [Mendix SDK](https://docs.mendix.com/apidocs-mxsdk/mxsdk/), you can programmatically access your application models. Of course, the SDK comes with [full documentation](https://apidocs.rnd.mendix.com/modelsdk/latest/index.html) of the models used to define your app. This enables you to automate a migration to alternative low-code platforms as well as to 3GL languages and platforms like Java and Hibernate.
 
 By using the Mendix SDK, you can generate Java classes or SQL DDL statements from your domain models or Java code from your microflows. This means you can convert your models to any technology stack you wish.
 

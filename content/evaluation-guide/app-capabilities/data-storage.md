@@ -87,7 +87,7 @@ Indexes are added using the entity properties menu inside Mendix Studio and Mend
 
 Using a stored procedure in Mendix depends on where your data resides.
 
-If you want to use a stored procedure in the database of your Mendix application, you can use the Mendix Java API. For more information, see [How to Use the Java API](https://docs.mendix.com/howto/logic-business-rules/java-api-tutorial) in the *Mendix Studio Pro How-to's*. And for details on executing SQL statements on your Mendix app database using JDBC, see [DataStorage executeWithConnection](https://apidocs.mendix.com/8/runtime/com/mendix/datastorage/DataStorage.html#executeWithConnection-java.util.function.Function-).
+If you want to use a stored procedure in the database of your Mendix application, you can use the Mendix Java API. For more information, see [How to Use the Java API](https://docs.mendix.com/howto/logic-business-rules/java-api-tutorial) in the *Mendix Studio Pro How-to's*. And for details on executing SQL statements on your Mendix app database using JDBC, see [DataStorage executeWithConnection](https://apidocs.rnd.mendix.com/8/runtime/com/mendix/datastorage/DataStorage.html#executeWithConnection-java.util.function.Function-).
 
 If you are using an external database, you can use the [Database Connector](https://appstore.home.mendix.com/link/app/2888/) add-on available in the Mendix App Store.
 

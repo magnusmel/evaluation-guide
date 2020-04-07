@@ -22,7 +22,7 @@ Each application built using the Mendix Platform has powerful API options. Every
 
 The core platform functionality is accessible through APIs, which allows developers to access and integrate Mendix with other tools and applications (for example, to build and deploy APIs to support continuous integration). The platform provides APIs to [create application projects](https://docs.mendix.com/apidocs-mxsdk/apidocs/projects-api), to [manage Sprints and stories](https://docs.mendix.com/apidocs-mxsdk/apidocs/stories-api), and to [manage user feedback](https://docs.mendix.com/apidocs-mxsdk/apidocs/feedback-api). You can also [build](https://docs.mendix.com/apidocs-mxsdk/apidocs/build-api) and [deploy](https://docs.mendix.com/apidocs-mxsdk/apidocs/deploy-api) your applications through APIs.
 
-For managing users and security, you can use APIs to [invite users to your app](https://docs.mendix.com/apidocs-mxsdk/apidocs/invite-api) and [manage user permissions](https://docs.mendix.com/apidocs-mxsdk/apidocs/permissions-api).
+For managing users and security, you can use APIs to [manage user permissions](https://docs.mendix.com/apidocs-mxsdk/apidocs/permissions-api).
 
 ### 1.3 Model APIs
 

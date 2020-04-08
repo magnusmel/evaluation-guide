@@ -10,7 +10,7 @@ tags: ["certification", "talent", "advanced", "expert", "university"]
 
 ## 1 How Do I Get Certified in Mendix? {#get-certified}
 
-The [Mendix Developer Certification Program](https://gettingstarted.mendixcloud.com/link/certification) will help to boost your career by validating your knowledge, skill level, and contributions to the Mendix community. A certification obtained at the Rapid Developer, Advanced Developer, and Expert Developer levels contributes to your ranking and visibility, and it will be directly visible to the Mendix community via your [Mendix Profile](community#mendix-profile).
+The [Mendix Developer Certification Program](https://gettingstarted.mendixcloud.com/link/certifications) will help to boost your career by validating your knowledge, skill level, and contributions to the Mendix community. A certification obtained at the Rapid Developer, Advanced Developer, and Expert Developer levels contributes to your ranking and visibility, and it will be directly visible to the Mendix community via your [Mendix Profile](community#mendix-profile).
 
 Once you sign up on the platform, you will automatically join as a Mendix community member, so you can start training and building apps with Mendix right away. The three levels of Mendix certification that you can obtain after you join as a Mendix community member are described below.
 
@@ -20,21 +20,21 @@ Once you sign up on the platform, you will automatically join as a Mendix commun
 
 ### 1.1 Rapid Developer Certification
 
-To get the [Rapid Developer Certification](https://gettingstarted.mendixcloud.com/link/certification/rapid), you need to pass an exam that proves you understand the fundamentals of the Mendix Platform and how, when, and where to use them.
+To get the [Rapid Developer Certification](https://gettingstarted.mendixcloud.com/link/certifications/rapid), you need to pass an exam that proves you understand the fundamentals of the Mendix Platform and how, when, and where to use them.
 
 This certification is proof of your basic Mendix knowledge and demonstrates that you can join a project team and independently build prototypes. You can then learn more on the job about the Mendix Platform and Agile development.
 
 ### 1.2 Advanced Developer Certification
 
-To get the [Advanced Developer Certification](https://gettingstarted.mendixcloud.com/link/certification/advanced), you need to pass an exam that is a practical assignment testing your Mendix Platform skills and knowledge.
+To get the [Advanced Developer Certification](https://gettingstarted.mendixcloud.com/link/certifications/advanced), you need to pass an exam that is a practical assignment testing your Mendix Platform skills and knowledge.
 
 This certification is proof of your advanced knowledge of the platform and your professional experience with developing Mendix apps. As a certified Mendix Advanced Developer, you are able to work independently on complex user stories, start to specialize as a technical or business consultant, and coach more junior team members.
 
 ### 1.3 Expert Developer Certification
 
-To get the [Expert Developer Certification](https://gettingstarted.mendixcloud.com/link/certification/expert) you need to send your application, and Mendix will evaluate your completion of the requirements as well as your motivation, project description, customer references, and portfolio.
+To get the [Expert Developer Certification](https://gettingstarted.mendixcloud.com/link/certifications/expert) you need to send your application, and Mendix will evaluate your completion of the requirements as well as your motivation, project description, customer references, and portfolio.
 
-When you reach the [Expert Developer Certification](https://gettingstarted.mendixcloud.com/link/certification/expert), you demonstrate capabilities in taking the lead when delivering Mendix applications to customers.
+When you reach the [Expert Developer Certification](https://gettingstarted.mendixcloud.com/link/certifications/expert), you demonstrate capabilities in taking the lead when delivering Mendix applications to customers.
 
 While the Rapid Developer Certification proves your Mendix knowledge and the Advanced Developer Certification proves your Mendix skills, the Expert Developer Certification proves more than just knowledge and skills—it proves expertise and experience. As a certified Mendix Expert Developer, you can lead project teams, do project estimations and proofs of concept, and coach other teams.
 

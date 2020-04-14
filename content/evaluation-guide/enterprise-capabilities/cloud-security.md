@@ -172,3 +172,7 @@ For more information, see [Which Third-Party Security Certifications & Assurance
 ## 8 Which Physical Security Controls Are in Place for the Mendix Cloud?
 
 Mendix Cloud is hosted in industry-leading data centers, which are reviewed bi-annually for compliance by the certified Information Security Officers of Mendix. All the data centers possess third-party certifications and/or third-party assurance reports like ISO/IEC 27001:2013, SOC 2, and PCI-DSS.
+
+## 9 Which DDoS Controls Are In Place For The Mendix Cloud?
+
+All Mendix Apps hosted in our Mendix Cloud v4 are defended against most common, frequently occuring network and transport layer DDoS attacks that might attack your Mendix App. Besides protection against common, frequently occuring DDoS attacks the Mendix Cloud has extra detection and mitigation against large and sophisticated DDoS attacks and Mendix has near real-time visibility into DDoS attacks and 24x7 access to the AWS DDoS Response Team.

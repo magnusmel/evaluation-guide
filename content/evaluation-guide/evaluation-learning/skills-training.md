@@ -40,7 +40,7 @@ That being said, you can use any available programming skills to extend an app w
 
 With Mendix, you can build your first application in 30 minutes. Right after you create your account, you will be guided into the platform to build your first app.
 
-To really ramp up your learning, you can follow the [Become a Rapid Developer learning path](https://gettingstarted.mendixcloud.com/link/path/31) online at your own pace, free of charge. There are 11 modules in this learning path, which take about an hour each to complete. So, you could complete all the modules in 2–3 days, and then start building applications straightaway.
+To really ramp up your learning, you can follow the [Become a Rapid Developer learning path](https://gettingstarted.mendixcloud.com/link/path/38) online at your own pace, free of charge (you must be signed in to the Mendix Platform to see this learning path). There are 11 modules in this learning path, which take about an hour each to complete. So, you could complete all the modules in 2–3 days, and then start building applications straightaway.
 
 There is no time limit to complete a Mendix learning path, which allows you to work through everything in your own time. The modules have individual learning units, each of which take a few minutes to complete. In addition, each module has a knowledge check to verify your understanding and highlight any areas you might need to review again.
 
@@ -80,17 +80,17 @@ The Mendix Academy provides the training options described below.
 
 When you want to pioneer a way forward, it's good to start with a path. The Mendix [learning paths](https://gettingstarted.mendixcloud.com/link/path) guide you through various learning modules that build your skills. These paths teach you everything from the fundamentals of how to build a Mendix app to how to improve your UX skills, from how to implement security in your apps to how to handle errors, and from how to configure app model logic to how to track your app's behavior.
 
-The learning paths take you from different starting points, levels, and roles to new stages of Mendix knowledge. Want to get started with the Mendix Platform in less than one hour? The [Start with a Blank App learning path](https://gettingstarted.mendixcloud.com/link/path/14) guides you through Mendix Studio and helps you to build your first app. Want to work on a Mendix development team? The [Become a Rapid Developer learning path](https://gettingstarted.mendixcloud.com/link/path/31) takes you through the key lessons for starting your Mendix development career.
+The learning paths take you from different starting points, levels, and roles to new stages of Mendix knowledge. Want to get started with the Mendix Platform in less than one hour? The [Build an App in Mendix Studio](https://gettingstarted.mendixcloud.com/link/path/83/Build-an-App-in-Mendix-Studio) guides you through Mendix Studio and helps you to build your first app (you must be signed in to the Mendix Platform to see this learning path). Want to work on a Mendix development team? The [Become a Rapid Developer learning path](https://gettingstarted.mendixcloud.com/link/path/38) takes you through the key lessons for starting your Mendix development career.
 
 <video controls  src="attachments/learning-path.mp4">VIDEO</video>
 
 The ultimate destination for each learning path is [certification](https://gettingstarted.mendixcloud.com/link/certification). Soon enough, you will be able to follow one of the advanced learning paths to take your career to the next level by specializing in one topic, or you can master them all to get certified as an [Advanced Developer](certification-talent#get-certified).
 
-Each learning path contains various [modules](https://gettingstarted.mendixcloud.com/link/module) that you need to complete. Each module contains theory and assignment units as well as knowledge checks. You can start these whenever you want to learn more about a specific topic.
+Each learning path contains various modules that you need to complete. Each module contains theory and assignment units as well as knowledge checks. You can start these whenever you want to learn more about a specific topic.
 
 #### 4.2.2 Classroom Courses {#classroom}
 
-Mendix offers regular [classroom courses](https://gettingstarted.mendixcloud.com/link/classroom) that align with the online learning paths, giving you a hands-on training experience. To start with the fundamentals, sign up for the [Rapid Developer Classroom Course](https://gettingstarted.mendixcloud.com/link/classroom/rapid). Then, to take your skills to the next level and drive digital innovation, check out the [Advanced Developer Classroom Course](https://gettingstarted.mendixcloud.com/link/classroom/advanced).
+Mendix offers regular [classroom courses](https://gettingstarted.mendixcloud.com/link/classroom) that align with the online learning paths, giving you a hands-on training experience. To start with the fundamentals, sign up for the [Rapid Developer Course](https://gettingstarted.mendixcloud.com/link/classroom/1/Rapid/Course). Then, to take your skills to the next level and drive digital innovation, check out the [Advanced Developer Course](https://gettingstarted.mendixcloud.com/link/classroom/5/Advanced/Course).
 
 There are Mendix offices in Boston, Rotterdam, and London where you can receive hands-on training from an experienced team of Mendix Academy Experts. Depending on the amount of students, Mendix can provide on-site training as well.
 

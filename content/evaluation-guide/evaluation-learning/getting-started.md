@@ -30,7 +30,7 @@ You can also upload your own starter apps to your [Private App Store](https://do
 
 ## 3 How Does Mendix Onboard New Users? {#tailored-guidance}
 
-Visual development is fast and easy to understand for all type of users, which means that Mendix onboards users with different knowledge levels and goals on the platform. During the signup, users have the option to share their preferences and goals for using the platform. Based on that information, Mendix tailors the guided product introduction tour to their preferences while providing other help methods, links to our online [Mendix Academy](https://gettingstarted.mendixcloud.com/link/path) material, supplementary content, and suggestions for your next steps. This guidance helps users to understand and navigate the extensive and powerful Mendix Platform.
+Visual development is fast and easy to understand for all type of users, which means that Mendix onboards users with different knowledge levels and goals on the platform. During the signup, users have the option to share their preferences and goals for using the platform. Based on that information, Mendix tailors the guided product introduction tour to their preferences while providing other help methods, links to our online [Mendix Academy](https://gettingstarted.mendixcloud.com/link/home) material, supplementary content, and suggestions for your next steps. This guidance helps users to understand and navigate the extensive and powerful Mendix Platform.
 
 <video controls  src="attachments/guidance.mp4">VIDEO</video>
 

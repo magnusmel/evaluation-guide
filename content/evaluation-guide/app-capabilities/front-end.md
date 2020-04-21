@@ -42,7 +42,7 @@ Mendix offers various UI elements (called widgets) out of the box that can be us
 
 Mendix apps can be fully styled (as discussed in [User Interface Design](ui-design)) and extended (as discussed below in the section [How Can I Extend the Mendix Front-End?](#extend)).
 
-You can learn more about the possibilities of Mendix app UX in the Mendix Academy learning path [Creating Engaging UX](https://gettingstarted.mendixcloud.com/link/path/28).
+You can learn more about the possibilities of Mendix app UX in the Mendix Academy learning path [Creating Engaging UX](https://gettingstarted.mendixcloud.com/link/path/28) (you must be signed in to the Mendix Platform to see this learning path).
 
 ## 3 How Does Mendix Support Client-Side Logic? {#support-client-side-logic}
 

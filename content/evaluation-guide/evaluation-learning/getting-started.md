@@ -40,7 +40,7 @@ No problem! Anyone can [sign up](https://signup.mendix.com/link/signup/?source=t
 
 ### 4.1 What Does the Free Edition Offer?
 
-The Mendix Free Edition includes everything you need to design, build, and deploy demos, prototypes, or small applications. All the features in the Mendix IDEs are available without restriction. This edition includes a deployment environment for each application to the Mendix Cloud for up to 10 internal users with no charge.
+The Mendix Free Edition includes everything you need to design, build, and deploy demos, prototypes, or small applications. All the features in the Mendix IDEs are available without restriction. This edition includes a free deployment environment for each application to the Mendix Cloud.
 
 The Free Edition is designed to provide developers and business users with a rapid cloud deployment option for prototyping and testing new applications, without having to provision a full cloud node.
 

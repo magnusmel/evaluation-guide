@@ -96,9 +96,9 @@ In a multi-app landscape, the value of each application significantly increases 
 
 Single sign-on (SSO) is a solution. Mendix provides support for SSO standards like SAML 2.0 and OpenID alongside other authentication mechanisms such as two-factor authentication, but building your own solution can prove challenging.
 
-MendixSSO provides the next generation of user identification on the Mendix platform. MendixSSO is based on the *OpenID Connect* framework. This enhances the multi-app integration possibilities by using identity propagation. With identity propagation, you can build secure and personalized interfaces between applications, enable fine-grained resource access control for your users, and gain clear usage statistics.
+Mendix SSO provides the next generation of user identification on the Mendix platform. Mendix SSO is based on the *OpenID Connect* framework. This enhances the multi-app integration possibilities by using identity propagation. With identity propagation, you can build secure and personalized interfaces between applications, enable fine-grained resource access control for your users, and gain clear usage statistics.
 
-In Mendix Studio, MendixSSO is automatically configured when you publish an app. This brings the time developers would spend on activating SSO with Mendix accounts in your app down to zero. Simply deploy and invite your users.
+In Mendix Studio, Mendix SSO is automatically configured when you publish an app. This brings the time developers would spend on activating SSO with Mendix accounts in your app down to zero. Simply deploy and invite your users.
 
 ## 9 How Does My Mendix App Support Multi-Tenancy?
 

@@ -55,4 +55,6 @@ For more details, go to [How Can I Build an Offline Mobile App?](offline-apps#bu
 * [Native Mobile Apps](native-mobile-apps)
 * [Hybrid Mobile Apps](hybrid-mobile-apps)
 * [Web Apps](web-apps)
+* [Progressive Web Apps](progressive-web-apps)
 * [Offline-first Apps](offline-apps)
+* [Accessibility](accessibility-conformance)

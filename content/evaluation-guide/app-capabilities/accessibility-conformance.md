@@ -3,9 +3,9 @@ title: "Mendix Accessibility Conformance"
 seo_title: "Building Hybrid Mobile Applications in Mendix - Leverage Device Functionality"
 seo_description: "Learn how Mendix hybrid mobile apps work, how to leverage device capabilities as well as publishing, testing & updating applications."
 parent: "ux-multi-channel-apps"
-menu_order: 30
-bg: "ux"
-tags: ["mobile app", "ux"]
+menu_order: 31
+bg: "WHAT GOES HERE?"
+tags: ["mobile app", "accessibility", "WCAG"]
 ---
 
 ## 1 Introduction
@@ -18,12 +18,12 @@ Specific accessibility issues reported to Mendix will be treated as bugs. Since 
 
 **Examples**
 
-| Example             | Mendix Platform                                              | Mendix Developer                                             |
-| ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Example  | Mendix Platform  | Mendix Developer   |
+| ------------ | --------------- | --------------- |
 | Header usage        | Provides the options to specify headings (for example H1-H6) | Responsible for applying correctly, for example by only using an H1, logical ordering, or header once. |
-| ALT tags for images | Provides option to a set multi-lingual ALT text for images   | Must provide logical ALT text.                               |
-| Contrast            | Provides a default theme with enough contrast and option to configure the colors. | Must keep enough contrast when changing the colors.          |
-| Visual widgets      | Provides visual widgets which are not accessible by definition, for example Charts or Maps. | Developers should take into account the limitation of visual widgets with respect to accessibility and provide a valid alternative like a textual representation. |
+| ALT tags for images | Provides option to a set multi-lingual ALT text for images   | Must provide logical ALT text.   |
+| Contrast   | Provides a default theme with enough contrast and option to configure the colors. | Must keep enough contrast when changing the colors.  |
+| Visual widgets | Provides visual widgets which are not accessible by definition, for example Charts or Maps. | Developers should take into account the limitation of visual widgets with respect to accessibility and provide a valid alternative like a textual representation. |
 | Keyboard tab order  | All UI components have option to include or exclude from keyboard tab index | Developers should make sure forms and webpages are keyboard accessible. A logical tab and focus order should be created. |
 
 ## 3 Support
@@ -51,7 +51,7 @@ The information below is based on the latest version of Mendix.
 | [1.4.1 Use of Color](https://www.w3.org/TR/WCAG21/#use-of-color) (Level A)<br>Also applies to:<br>2017 Section 508<ul><li>501 (Web)(Software)</li><li>504.2 (Authoring Tool)</li><li>602.3 (Support Docs)</li></ul> | Supports  | Colors are only used as a decorative or supplemental attribute of user interface elements. A textual representation can always be used as the primary approach for displaying information.<br><br>Mendix developers are responsible how they use colors in their applications.<br><br>Mendix provides options for defining text alternatives if needed. |
 | [1.4.2 Audio Control](https://www.w3.org/TR/WCAG21/#audio-controlhttps://www.w3.org/TR/WCAG21/#audio-control) (Level A)<br>Also applies to:<br>2017 Section 508<ul><li>501 (Web)(Software)</li><li>504.2 (Authoring Tool)</li><li>602.3 (Support Docs)</li></ul> | Not Applicable     | The Mendix platform does not include audio or video content by default. |
 | [2.1.1 Keyboard](https://www.w3.org/TR/WCAG21/#keyboard) (Level A)<br>Also applies to:<br>2017 Section 508<ul><li>501 (Web)(Software)</li><li>504.2 (Authoring Tool)</li><li>602.3 (Support Docs)</li></ul> | Supports   | Applications built with the the Mendix platform are web-based applications that support standard keyboard navigation and input functions. This includes features like using the Tab key to move between selectable UI components, pressing the arrow keys to navigate between elements (if applicable), and enabling a developer to configure the behavior when pressing the Enter key on text inputs. |
-| [2.1.2 No Keyboard Trap](https://www.w3.org/TR/WCAG21/#no-keyboard-trap) (Level A)<br>Also applies to:<br>2017 Section 508<ul><li>501 (Web)(Software)</li><li>504.2 (Authoring Tool)</li><li>602.3 (Support Docs)</li></ul> | Supports     | Applications built with the the Mendix platform are web-based applications that support standard keyboard navigation. Mendix ensures that keyboard users cannot be trapped in a subset of content. |
+| [2.1.2 No Keyboard Trap](https://www.w3.org/TR/WCAG21/#no-keyboard-trap) (Level A)<br>Also applies to:<br>2017 Section 508<ul><li>501 (Web)(Software)</li><li>504.2 (Authoring Tool)</li><li>602.3 (Support Docs)</li></ul> | Supports | Applications built with the the Mendix platform are web-based applications that support standard keyboard navigation. Mendix ensures that keyboard users cannot be trapped in a subset of content. |
 | [2.1.4 Character Key Shortcuts](https://www.w3.org/TR/WCAG21/#character-key-shortcuts) (Level A) | Not Applicable  | The Mendix platform does not offer an option for character-key shortcuts |
 | [2.2.1 Timing Adjustable](https://www.w3.org/TR/WCAG21/#timing-adjustable) (Level A)<br>Also applies to:<br>2017 Section 508<ul><li>501 (Web)(Software)</li><li>504.2 (Authoring Tool)</li><li>602.3 (Support Docs)</li></ul> | Not Applicable   | The Mendix platform does not offer an option for time-controlled content. |
 | [2.2.2 Pause, Stop, Hide](https://www.w3.org/TR/WCAG21/#pause-stop-hide) (Level A)<br>Also applies to:<br>2017 Section 508<ul><li>501 (Web)(Software)</li><li>504.2 (Authoring Tool)</li><li>602.3 (Support Docs)</li></ul> | Not Applicable  | The Mendix platform does not include moving, blinking, scrolling, or auto-updating information. |

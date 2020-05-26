@@ -52,7 +52,7 @@ Mendix has completed the CSA STAR level one self-assessment, which is available 
 
 ## 3 What Security Controls Does Mendix Have in Place for Its Employees?
 
-All Mendix employees are required to provide a government-certified background check (certificate of good conduct) and are bound by strict confidentiality obligations that are embodied within a confidentiality agreement. Furthermore, Mendix has implemented a security awareness program for all employees. Mendix security staff holds industry standard certifications, including but not limited to CISSP, CCSP, and CISM.
+All Mendix employees are required to provide a government-certified background check (certificate of good conduct) and are bound by strict confidentiality obligations that are embodied within a confidentiality agreement. Furthermore, Mendix has implemented a security awareness program for all employees. Mendix security and privacy staff holds industry standard certifications, including but not limited to CISSP, CCSP, CIPP/E, CDPSE, and CISM.
 
 ## 4 Who Is the Owner of Data in a Mendix App?
 

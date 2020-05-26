@@ -18,20 +18,20 @@ Specific accessibility issues reported to Mendix will be treated as bugs. Since 
 
 | Example  | Mendix Platform  | Developer   |
 | ------------ | --------------- | --------------- |
-| Header usage        | Provides the options to specify headings (for example `H1`-`H6`) | Responsible for applying correctly, for example by only using an `H1`, logical ordering, or header once. |
-| `alt` tags for images | Provides option to a set multi-lingual `alt` text for images   | Must provide logical `alt` text.   |
+| Header usage        | Provides the options to specify headings (for example `H1`-`H6`). | Responsible for applying correctly, for example by only using an `H1`, logical ordering, or header once. |
+| `alt` tags for images | Provides option to a set multi-lingual `alt` text for images.   | Must provide logical `alt` text.   |
 | Contrast   | Provides a default theme with enough contrast and option to configure the colors. | Must keep enough contrast when changing the colors.  |
 | Visual widgets | Provides visual widgets which are not accessible by definition, for example Charts or Maps. | Developers should take into account the limitation of visual widgets with respect to accessibility and provide a valid alternative like a textual representation. |
-| Keyboard tab order  | All UI components have option to include or exclude from keyboard tab index | Developers should make sure forms and webpages are keyboard accessible. A logical tab and focus order should be created. |
+| Keyboard tab order  | All UI components have option to include or exclude from keyboard tab index. | Developers should make sure forms and webpages are keyboard accessible. A logical tab and focus order should be created. |
 
-## 3 What Accessibility Guidelines Does Mendix Support?
+## 3 What Accessibility Guidelines Do Mendix Support?
 
 Mendix supports the following guidelines:
 
 * Web Content Accessibility Guidelines (WCAG) 2.1 levels A and AA (for more information, click [here](https://www.w3.org/TR/WCAG21/))
 * Section 508 of the American Federal Communications Act as published in 2017 (for more information, click [here](http://www.Section508.gov))
 
-## 4 What WCAG 2.1 Criteria Does Mendix Support?
+## 4 What WCAG 2.1 Criteria Do Mendix Support?
 
 The information below is based on the latest version of Mendix.
 

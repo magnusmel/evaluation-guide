@@ -4,7 +4,7 @@ seo_title: "Mendix Accessibility Conformance - Ensure Your Apps Are Accessible"
 seo_description: "This report covers accessibility conformance for web applications created using Mendix Studio Pro or Mendix Studio."
 parent: "ux-multi-channel-apps"
 menu_order: 31
-bg: "WHAT GOES HERE?"
+bg: "ux"
 tags: ["mobile app", "accessibility", "WCAG"]
 ---
 

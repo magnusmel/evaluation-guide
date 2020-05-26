@@ -1,7 +1,7 @@
 ---
-title: "Mendix Accessibility Conformance"
-seo_title: "Building Hybrid Mobile Applications in Mendix - Leverage Device Functionality"
-seo_description: "Learn how Mendix hybrid mobile apps work, how to leverage device capabilities as well as publishing, testing & updating applications."
+title: "Accessibility"
+seo_title: "Mendix Accessibility Conformance - Ensure Your Apps Are Accessible"
+seo_description: "This report covers accessibility conformance for web applications created using Mendix Studio Pro or Mendix Studio."
 parent: "ux-multi-channel-apps"
 menu_order: 31
 bg: "WHAT GOES HERE?"

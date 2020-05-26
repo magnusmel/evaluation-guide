@@ -24,20 +24,20 @@ Specific accessibility issues reported to Mendix will be treated as bugs. Since 
 | Visual widgets | Provides visual widgets which are not accessible by definition, for example Charts or Maps. | Developers should take into account the limitation of visual widgets with respect to accessibility and provide a valid alternative like a textual representation. |
 | Keyboard tab order  | All UI components have option to include or exclude from keyboard tab index | Developers should make sure forms and webpages are keyboard accessible. A logical tab and focus order should be created. |
 
-## 3 Which Accessibility Guidelines Does Mendix Support?
+## 3 What Accessibility Guidelines Does Mendix Support?
 
 Mendix supports the following guidelines:
 
 * Web Content Accessibility Guidelines (WCAG) 2.1 levels A and AA (for more information, click [here](https://www.w3.org/TR/WCAG21/))
 * Section 508 of the American Federal Communications Act as published in 2017 (for more information, click [here](http://www.Section508.gov))
 
-## 4 Which WCAG 2.1 Criterea Does Mendix Support?
+## 4 What WCAG 2.1 Criteria Does Mendix Support?
 
 The information below is based on the latest version of Mendix.
 
 ### 4.1 Success Criteria, Level A
 
-| **Criteria**| **Conformance Level** |**Remarks and Explanations** |
+| Criteria | Conformance Level |Remarks and Explanations |
 | ---- | ---- | ---- |
 | [1.1.1 Non-text Content](https://www.w3.org/TR/WCAG21/#non-text-content) (Level A)<br>Also applies to:<br>2017 Section 508<ul><li>501 (Web)(Software)</li><li>504.2 (Authoring Tool)</li><li>602.3 (Support Docs)</li></ul> | Supports | The Mendix platform uses standard HTML and WAI-ARIA techniques for providing text equivalents of non-text elements. This includes the use of `alt` attributes for images and the use of `aria-label` or `aria-describedby` attributes for input elements. On top of this, the Mendix platform offers generic support for configuring additional attributes on widgets.<br><br>The Mendix platform enables developers to define a text-only representation when needed for accessibility.<br><br>Some purely decorative elements that have no functional or informational purpose may not have a text alternative.|
 | [1.2.1 Audio-only and Video-only (Prerecorded)](https://www.w3.org/TR/WCAG21/#audio-only-and-video-only-prerecorded) (Level A)<br>Also applies to:<br>2017 Section 508<ul><li>501 (Web)(Software)</li><li>504.2 (Authoring Tool)</li><li>602.3 (Support Docs)</li></ul> | Not applicable          | The Mendix platform does not include audio or video content by default. However, developers can include video content in user interfaces that are created with Mendix. In such cases, developers can include alternative representations (such as text transcripts) that present equivalent information to the videos. |

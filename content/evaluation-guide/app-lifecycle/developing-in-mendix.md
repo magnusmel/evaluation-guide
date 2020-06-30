@@ -12,7 +12,7 @@ seo_video: "developing-in-mendix"
 
 Mendix is a model-driven development environment designed to cater to the needs of today's enterprise software developers, which includes line-of-business developers, citizen developers, and experienced software engineers. Through our highly extensible visual modeling suite, developers of all skill sets can participate in the designing, building, and deploying of apps using both no-code and low-code development tools.
 
-{{% youtube rXR6IFxVOXE %}}
+<iframe class="vidyard_iframe" src="//play.vidyard.com/rRjwcUkyy2CRYdgGGhak7C.html?" width="1920" height="1080" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen></iframe>
 
 ## How Does Mendix Enable Model-Driven Development? {#enable}
 

@@ -48,11 +48,15 @@ Mendix is certified to be compliant with the [ISO/IEC 27018](https://www.iso.org
 
 Mendix is certified to be compliant with the [PCI DSS](https://www.pcisecuritystandards.org/document_library) standard as a Level 1 Service Provider, which is the highest certification a PCI DSS service provider can get.
 
-### 2.7 Cyber Essentials (UK)
+### 2.7 HIPAA
+
+Mendix is atttested to be compliant with [HIPAA](https://www.hhs.gov/hipaa/index.html). The Health Insurance Portability and Accountability Act of 1996 (HIPAA) required the Secretary of the U.S. Department of Health and Human Services (HHS) to develop regulations protecting the privacy and security of certain health information.
+
+### 2.8 Cyber Essentials (UK)
 
 Mendix is certified to be compliant with [Cyber Essentials](https://www.cyberessentials.ncsc.gov.uk/). The Cyber Essentials scheme addresses the most common internet-based threats to cyber security. For more details, see [Further Scheme Information](https://www.cyberessentials.ncsc.gov.uk/further-scheme-information).
 
-### 2.8 CSA STAR Certification
+### 2.9 CSA STAR Certification
 
 [CSA STAR](https://cloudsecurityalliance.org/star/#_overview) is a program for security assurance in the cloud. STAR consists of three levels of assurance based upon a comprehensive list of cloud control objectives.
 

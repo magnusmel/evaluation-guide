@@ -109,7 +109,7 @@ Both production data and backup data utilize cloud storage and are subject to th
 
 The Mendix Cloud has multiple mitigations for disasters, including high availability with deployment to multiple availability zones, scaling, and auto-recovery.
 
-Disaster recovery tests are performed quarterly on the Mendix Platform. These tests are reported in our ISAE 3000 Type II report, ISAE 3402 Type II report, SOC 1 Type II report, SOC 2 Type II report, SOC 3 Type II report, ISO/IEC 27001:2013, ISO/IEC 27017:2015, and ISO/IEC 27018:2019 certification.
+Disaster recovery tests are performed quarterly on the Mendix Platform. These tests are reported in our ISAE 3000 Type II report, ISAE 3402 Type II report, SOC 1 Type II report, SOC 2 Type II report, SOC 3 Type II report, ISO/IEC 27001:2013, ISO/IEC 27017:2015, ISO/IEC 27018:2019 certification and HIPAA assurance letter.
 
 ### 2.2 Does the Mendix Cloud Offers High Availability & Auto-Recovery?
 
@@ -165,7 +165,7 @@ The app environment setup allows all instances of the same application to operat
 
 ## 7 Does Mendix Establish & Maintain Baseline Configurations for Hardening?
 
-The Mendix Security team has an established hardening security baseline based on international standards like SANS and CIS. This is audited by our independent third-party auditors and results in our annual published ISAE 3402 Type II report, SOC 1 Type II report, SOC 2 Type II report, SOC 3 Type II report, PCI DSS Level 1 Service Provider Attestation of Compliance, ISO/IEC 27001:2013, ISO/IEC 27017:2015, and ISO/IEC 27018:2019 certification.
+The Mendix Security team has an established hardening security baseline based on international standards like SANS and CIS. This is audited by our independent third-party auditors and results in our annual published ISAE 3402 Type II report, SOC 1 Type II report, SOC 2 Type II report, SOC 3 Type II report, PCI DSS Level 1 Service Provider Attestation of Compliance, ISO/IEC 27001:2013, ISO/IEC 27017:2015, ISO/IEC 27018:2019 certification and HIPAA assurance letter.
 
 For more information, see [Which Third-Party Security Certifications & Assurance Reports Does Mendix Have?](organization-compliance#security-certifications).
 

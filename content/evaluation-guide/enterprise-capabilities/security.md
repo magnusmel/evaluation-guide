@@ -32,6 +32,7 @@ Mendix complies with the following third-party security certifications and assur
 * SOC 2 Type II Assurance Report
 * SOC 3 Type II Assurance Report
 * PCI DSS Level 1 Service Provider Attestation of Compliance
+* HIPAA Assurance Letter
 * Cyber Essentials (UK)
 * CSA STAR Certification
 

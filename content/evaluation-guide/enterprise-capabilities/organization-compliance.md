@@ -50,7 +50,7 @@ Mendix is certified to be compliant with the [PCI DSS](https://www.pcisecurityst
 
 ### 2.7 HIPAA
 
-Mendix is atttested to be compliant with [HIPAA](https://www.hhs.gov/hipaa/index.html). The Health Insurance Portability and Accountability Act of 1996 (HIPAA) required the Secretary of the U.S. Department of Health and Human Services (HHS) to develop regulations protecting the privacy and security of certain health information.
+Mendix is attested to be compliant with [HIPAA](https://www.hhs.gov/hipaa/index.html). The Health Insurance Portability and Accountability Act of 1996 (HIPAA) required the Secretary of the U.S. Department of Health and Human Services (HHS) to develop regulations protecting the privacy and security of certain health information.
 
 ### 2.8 Cyber Essentials (UK)
 

@@ -175,4 +175,4 @@ Mendix Cloud is hosted in industry-leading data centers, which are reviewed bi-a
 
 ## 9 Which DDoS Controls Are in Place for the Mendix Cloud?
 
-All Mendix apps hosted in Mendix Cloud v4 are defended against the most common and frequently-occurring network and transport layer DDoS attacks. In addition to this protection, the Mendix Cloud has extra detection and mitigation of large and sophisticated DDoS attacks, near real-time visibility of DDoS attacks, and 24/7 access to the AWS DDoS Response Team.
+All Mendix apps hosted in Mendix Cloud v4 are behind AWS Shield Advanced and are defended against the most common and frequently-occurring network and transport layer DDoS attacks. In addition to this protection, the Mendix Cloud has extra detection and mitigation of large and sophisticated DDoS attacks, near real-time visibility of DDoS attacks, and 24/7 access to the AWS DDoS Response Team.

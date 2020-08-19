@@ -63,6 +63,6 @@ Mendix provides all the cloud deployment options you need and is fully optimized
 
 The ability to deploy with one click to any cloud environment or on premises directly from Mendix's modeling environment enables developers with any background to bring applications to their users. In short, the Mendix Platform enables development teams to embrace the DevOps way of working, which means that a single team can develop, maintain, and support apps in production while adhering to enterprise requirements.
 
-<video controls src="attachments/Deployment-Operations.mp4">VIDEO</video>
+<video controls src="attachments/Deployment-Operations-V2.mp4">VIDEO</video>
 
 Read more in the [DevOps Overview](app-lifecycle/devops-overview) about why cloud technology is at the core of the Mendix Platform.

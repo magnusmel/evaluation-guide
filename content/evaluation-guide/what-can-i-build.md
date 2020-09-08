@@ -12,7 +12,7 @@ tags: ["evaluation guide", "mendix", "application", "innovation app", "customer 
 
 With Mendix, you can build a wide range of transactional, event-driven, and adjacent applications for all kinds of industries, regardless of complexity, performance, or [scale](enterprise-capabilities/architecture-principles#statelessness).
 
-The [Mendix App Gallery](https://gallery.mendix.com) showcases all kinds of applications built using the Mendix Platform. These applications are there to present you with the art of the possible.
+The [Mendix Solutions Gallery](https://www.mendix.com/solutions/) showcases all kinds of applications built using the Mendix Platform. These applications are there to present you with the art of the possible.
 
 ## 2 What Types of Projects Are a Good Fit for Mendix? {#good-fit}
 

@@ -12,8 +12,6 @@ seo_video: "sap"
 
 Mendix has joined forces with SAP, the world leader in enterprise applications. This partnership has the goal of helping enterprises shorten time-to-value for web and mobile apps by leveraging their investments in SAP software.
 
-{{% youtube nlSdYoRUSoc %}}
-
 ## What Type of Partnership Does Mendix Have with SAP? {#type}
 
 Mendix is an **SAP Solution Extension** partner, which means SAP has fully adopted the Mendix Platform as their platform to extend SAP solutions like SAP Business Suite, SAP S/4HANA, SuccessFactors, and more. The product name that SAP uses for Mendix is SAP Cloud Platform Rapid Application Development by Mendix.

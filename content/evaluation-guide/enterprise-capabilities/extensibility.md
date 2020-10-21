@@ -75,7 +75,7 @@ For more information, see this Mendix documentation:
 
 ## 2 How Can I Provide Reusable Connectors to Third-Party Services? {#connectors}
 
-Generic connectors can be easily shared with other developers and companies. You can export a connector module from Mendix Studio and Mendix Studio Pro that can then be imported into other Mendix app projects. The connector module can also be uploaded to the Mendix App Store – either to the Public App Store so anyone can use it, or to your company's Private App Store so that only developers in your company can reuse it. For more information, see [How to Share App Store Content](https://docs.mendix.com/developerportal/app-store/share-app-store-content) in the *Mendix Developer Portal Guide*.
+Generic connectors can be easily shared with other developers and companies. You can export a connector module from Mendix Studio and Mendix Studio Pro that can then be imported into other Mendix app projects. The connector module can also be uploaded to the Mendix App Store/Marketplace – either to the Public App Store/Marketplace so anyone can use it, or to your company's Private App Store/Marketplace so that only developers in your company can reuse it. For more information, see [How to Share App Store Content](https://docs.mendix.com/developerportal/app-store/share-app-store-content) in the *Mendix Developer Portal Guide*.
 
 Connectors include everything you need to use them, like microflow activities, logic, domain models, Java code, and any required Java libraries. This complexity will not be visible to the users of your connector. They can simply drag your custom microflow activities from the toolbox into any microflow to use your connector.
 

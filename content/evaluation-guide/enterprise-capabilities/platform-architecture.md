@@ -10,7 +10,7 @@ tags: ["platform architecture", "architecture", "developer portal", "team server
 
 ## 1 What Are the Key Components of the Mendix Platform Architecture? {#key-components}
 
-The Mendix Platform is a completely integrated application platform-as-a-service (aPaaS) offering for designing, building, deploying, and managing enterprise apps. The platform is accessible to developers and administrators through the Developer Portal, which provides access to apps as well as services for requirements management, development, and deployment in the operation and administration of apps and app services. The platform includes both Mendix Studio Pro and Mendix Studio as well as the [Mendix App Store/Marketplace](https://appstore.home.mendix.com/index3.html) that features hundreds of publicly available building blocks to speed up development. The Mendix App Store can be configured for private use as well, so that apps and building blocks can be shared across your organization. The platform features online collaboration among users through the Developer Portal, Mendix app, and Mendix Studio and Mendix Studio Pro.
+The Mendix Platform is a completely integrated application platform-as-a-service (aPaaS) offering for designing, building, deploying, and managing enterprise apps. The platform is accessible to developers and administrators through the Developer Portal, which provides access to apps as well as services for requirements management, development, and deployment in the operation and administration of apps and app services. The platform includes both Mendix Studio Pro and Mendix Studio as well as the [Mendix App Store/Marketplace](https://appstore.home.mendix.com/index3.html) that features hundreds of publicly available building blocks to speed up development. The Mendix App Store/Marketplace can be configured for private use as well, so that apps and building blocks can be shared across your organization. The platform features online collaboration among users through the Developer Portal, Mendix app, and Mendix Studio and Mendix Studio Pro.
 
 The below diagram provides an overview of the key components of the Mendix Platform.
 
@@ -62,4 +62,4 @@ Deployment via the [Mendix Developer Portal](../app-capabilities/mendix-cloud-fe
 
 The [Mendix App Store/Marketplace](https://appstore.home.mendix.com/index3.html) is a public marketplace for apps and application building blocks. This App Store/Marketplace can also be configured to serve as a private enterprise app store, so that end-users and business managers can discover what apps are accessible to them within their organization.
 
-For more information, see [App Store](../app-lifecycle/app-store).
+For more information, see [App Store/Marketplace](../app-lifecycle/app-store).

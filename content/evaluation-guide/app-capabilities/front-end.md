@@ -34,7 +34,7 @@ With Mendix, you can create pages for the front-end user interface of your appli
 
 The [Atlas UI](https://atlas.mendix.com) framework offered on the Mendix Platform comes with diverse layouts, templates, and building blocks you can easily implement to design beautiful applications. You can leverage standard Mendix resources to create rich user experiences or create your own company building blocks, layouts, and templates that can be reused in other apps.
 
-Mendix offers various UI elements (called widgets) out of the box that can be used to build these rich user interfaces. Widgets can be placed directly on the page or combined in building blocks. Mendix provides widgets that include basic inputs, buttons, and text boxes as well as widgets for Google Maps, rich text, slider functionality, and much more. The Mendix community also develops, releases, and maintains over 600 hundred open-source custom widgets for use in app development via the [Mendix App Store](https://appstore.mendix.com). Next to this, it is also possible to extend Mendix with your own [custom widgets](#extend)
+Mendix offers various UI elements (called widgets) out of the box that can be used to build these rich user interfaces. Widgets can be placed directly on the page or combined in building blocks. Mendix provides widgets that include basic inputs, buttons, and text boxes as well as widgets for Google Maps, rich text, slider functionality, and much more. The Mendix community also develops, releases, and maintains over 600 hundred open-source custom widgets for use in app development via the [Mendix App Store/Marketplace](https://appstore.mendix.com). Next to this, it is also possible to extend Mendix with your own [custom widgets](#extend)
 
 {{% image_container width="550" %}}
 ![Responsive Templates](attachments/atlas-ui1.png)
@@ -88,7 +88,7 @@ For more information, see [How to Write JavaScript Actions](https://docs.mendix.
 
 ### 4.3 Distribution
 
-You can version pluggable widgets as well as pluggable nanoflow actions and upload them to your private Mendix App Store so that other developers in your company can easily use them. It is also possible to share widgets/actions manually or embed them in company starter apps.
+You can version pluggable widgets as well as pluggable nanoflow actions and upload them to your private Mendix App Store/Marketplace so that other developers in your company can easily use them. It is also possible to share widgets/actions manually or embed them in company starter apps.
 
 ## 5 Does Mendix Support Multilingual Apps?
 

@@ -89,9 +89,9 @@ Using a stored procedure in Mendix depends on where your data resides.
 
 If you want to use a stored procedure in the database of your Mendix application, you can use the Mendix Java API. For more information, see [How to Use the Java API](https://docs.mendix.com/howto/logic-business-rules/java-api-tutorial) in the *Mendix Studio Pro How-to's*. And for details on executing SQL statements on your Mendix app database using JDBC, see [DataStorage executeWithConnection](https://apidocs.rnd.mendix.com/8/runtime/com/mendix/datastorage/DataStorage.html#executeWithConnection-java.util.function.Function-).
 
-If you are using an external database, you can use the [Database Connector](https://appstore.home.mendix.com/link/app/2888/) add-on available in the Mendix App Store.
+If you are using an external database, you can use the [Database Connector](https://appstore.home.mendix.com/link/app/2888/) add-on available in the Mendix App Store/Marketplace.
 
-Calling stored procedures is mostly relevant if you are building on top of an existing legacy database. In this area, there are a lot of Oracle relational database management systems (RDBMSs). The [Oracle Connector (Beta)](https://appstore.home.mendix.com/link/app/8683/) available in the Mendix App Store provides support for features often seen in legacy Oracle databases, such as table APIs built with PL/SQL stored procedures and packages, ref cursors, and user-defined types.
+Calling stored procedures is mostly relevant if you are building on top of an existing legacy database. In this area, there are a lot of Oracle relational database management systems (RDBMSs). The [Oracle Connector (Beta)](https://appstore.home.mendix.com/link/app/8683/) available in the Mendix App Store/Marketplace provides support for features often seen in legacy Oracle databases, such as table APIs built with PL/SQL stored procedures and packages, ref cursors, and user-defined types.
 
 ## 6 How Does Mendix Handle Transaction Management?
 

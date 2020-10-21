@@ -34,7 +34,7 @@ For details, see [Where Can I Use the Openness & Extensibility the Mendix Platfo
 
 ## How Can I Extend the Functionality of the Mendix Platform? {#ext}
 
-The Mendix Runtime can be extended using Java Actions that enable you to build reusable microflow activities, which are packaged as native actions and consumed by less technical developers from the Mendix Toolbox or App Store. For the front-end client, you can create custom JavaScript extensions for both web and mobile, including Cordova plugins.
+The Mendix Runtime can be extended using Java Actions that enable you to build reusable microflow activities, which are packaged as native actions and consumed by less technical developers from the Mendix Toolbox or App Store/Marketplace. For the front-end client, you can create custom JavaScript extensions for both web and mobile, including Cordova plugins.
 
 Explore this topic more in [How Can I Extend the Functionality of the Mendix Platform?](extensibility#extend-functionality).
 

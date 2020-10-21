@@ -24,7 +24,7 @@ This diagram below shows the runtime architecture of a Mendix  mobile app:
 
 ## 2 How Can I Leverage Device Capabilities in My Mobile Apps?
 
-A Mendix hybrid mobile app can leverage various native capabilities via actions and widgets that use [Cordova plugins](https://cordova.apache.org/plugins/). You can easily add these actions or widgets to your mobile app projects and configure them in Mendix Studio Pro. Many capabilities are provided out of the box by Mendix or by partners via the [Mendix App Store](https://appstore.home.mendix.com/index3.html). If other device capabilities are needed, you can extend your app project with a custom JavaScript action or widget that wraps a Cordova plugin and so accesses the device capabilities, as described in [How Can I Extend the Mendix Front-End?](front-end#extend).
+A Mendix hybrid mobile app can leverage various native capabilities via actions and widgets that use [Cordova plugins](https://cordova.apache.org/plugins/). You can easily add these actions or widgets to your mobile app projects and configure them in Mendix Studio Pro. Many capabilities are provided out of the box by Mendix or by partners via the [Mendix App Store/Marketplace](https://appstore.home.mendix.com/index3.html). If other device capabilities are needed, you can extend your app project with a custom JavaScript action or widget that wraps a Cordova plugin and so accesses the device capabilities, as described in [How Can I Extend the Mendix Front-End?](front-end#extend).
 
 ## 3 How Can I Build and Publish My Mobile App?
 

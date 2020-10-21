@@ -58,7 +58,7 @@ Depending on the rule type, this will be handled by the Mendix Runtime or by the
 Event handlers give you the ability to run logic before or after certain events. There are many use cases for this, such as the following:
 
 * **Setting default values on object creation** – if you want to initialize a new object (for example, one with non-constant default values), you can use a before-create event
-* **Keeping an audit trail** – sometimes keeping a trail of all the changes made to data is required, and after-events enable you to do this by storing any changes into an audit trail object (the [Audittrail](https://appstore.home.mendix.com/link/app/138/) module in the Mendix App Store provides this exact functionality)
+* **Keeping an audit trail** – sometimes keeping a trail of all the changes made to data is required, and after-events enable you to do this by storing any changes into an audit trail object (the [Audittrail](https://appstore.home.mendix.com/link/app/138/) module in the Mendix App Store/Marketplace provides this exact functionality)
 * **Validating data changes** – before-events can be used to trigger a microflow that validates data changes
 
 To set event handlers on all the entities in your application, you can use the Mendix Java API. For example, to set a before commit event listener for all entities, use this method: [Core.getListenersRegistry().registerAfterCommitListener](https://apidocs.rnd.mendix.com/8/runtime/com/mendix/core/actionmanagement/ListenersRegistry.html).

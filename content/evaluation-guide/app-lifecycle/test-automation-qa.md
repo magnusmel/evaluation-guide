@@ -60,7 +60,7 @@ The implication for testing is that you can be assured your testing is scoped to
 
 ## 3 How Can I Unit-Test My Mendix Apps? {#unit-test}
 
-The Mendix Platform supports the implementation of unit tests. These tests are built using microflows and the [UnitTesting](https://appstore.home.mendix.com/link/app/390/) module available from the Mendix App Store. Tests are run either every time there is a new build of the application or at a scheduled time.
+The Mendix Platform supports the implementation of unit tests. These tests are built using microflows and the [UnitTesting](https://appstore.home.mendix.com/link/app/390/) module available from the Mendix App Store/Marketplace. Tests are run either every time there is a new build of the application or at a scheduled time.
 
 {{% image_container width="600" %}}
 ![DevOps Testing Module](attachments/DO_UnitTestingModule.png)

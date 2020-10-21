@@ -62,7 +62,7 @@ The sections below describe how this level of security is configured in Mendix a
 
 ### 2.1 How Do Module Roles Work in My Mendix App Model?
 
-Mendix distinguishes module roles from user roles so that the module along with its roles can be reused in different apps and/or published to the [Mendix App Store](https://appstore.home.mendix.com/index3.html).
+Mendix distinguishes module roles from user roles so that the module along with its roles can be reused in different apps and/or published to the [Mendix App Store/Marketplace](https://appstore.home.mendix.com/index3.html).
 
 ### 2.2 How Can I Define Module-Level Security Settings?
 

@@ -114,4 +114,4 @@ Tenants can be custom defined in the application as well by using identifiers li
 
 ## 10 What Kind of Encryption Is Available in My Mendix App?
 
-Besides the default encryption at rest and in transit, users are able to implement column encryption or uploaded file encryption. Column and uploaded file encryption are supported out of the box via the [Encryption](https://appstore.home.mendix.com/link/app/1011/) module from the Mendix App Store using AES encryption.
+Besides the default encryption at rest and in transit, users are able to implement column encryption or uploaded file encryption. Column and uploaded file encryption are supported out of the box via the [Encryption](https://appstore.home.mendix.com/link/app/1011/) module from the Mendix App Store/Marketplace using AES encryption.

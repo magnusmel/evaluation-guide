@@ -83,7 +83,7 @@ You may want to use existing data from old non-Mendix applications in your new M
 
 ### 3.1 Database Replication Module
 
-The [Database Replication](https://appstore.home.mendix.com/link/app/160/) module available from the Mendix App Store enables connecting to a large number of different types of databases. It will show you what data structures exist in the existing database. You can then define (through a web page) what data you want migrated to your Mendix database. You can also define how you want to map the data from existing columns to your entity attributes.
+The [Database Replication](https://appstore.home.mendix.com/link/app/160/) module available from the Mendix App Store/Marketplace enables connecting to a large number of different types of databases. It will show you what data structures exist in the existing database. You can then define (through a web page) what data you want migrated to your Mendix database. You can also define how you want to map the data from existing columns to your entity attributes.
 
 ### 3.2 Database Connector
 

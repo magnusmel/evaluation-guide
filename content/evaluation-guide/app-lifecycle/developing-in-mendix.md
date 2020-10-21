@@ -47,4 +47,4 @@ For more information, see [How Does Mendix Support Multi-User Development?](vers
 * [Debugging Facilities](debugging)
 * [Version Control & Multi-User Development](version-control)
 * [Model Consistency](model-consistency)
-* [App Store](app-store)
+* [App Store/Marketplace](app-store)

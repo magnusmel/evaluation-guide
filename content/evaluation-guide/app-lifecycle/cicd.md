@@ -28,7 +28,7 @@ Through automation with the Mendix Platform APIs, each of these functions can be
 
 ## 2 How Can I Integrate Automated Tests of My Mendix Apps in My CI/CD Pipeline?
 
-As part of the CI pipeline, testing can be fully automated. To implement unit tests, you can use the [UnitTesting](https://appstore.home.mendix.com/link/app/390/) module, which is available in the Mendix App Store. In addition, testers and developers alike can use the [Mendix Application Test Suite](https://docs.mendix.com/ats/), a Selenium-based test service for automated UI testing. Third-party testing tools and services can also be used to integrate with the CI pipeline.
+As part of the CI pipeline, testing can be fully automated. To implement unit tests, you can use the [UnitTesting](https://appstore.home.mendix.com/link/app/390/) module, which is available in the Mendix App Store/Marketplace. In addition, testers and developers alike can use the [Mendix Application Test Suite](https://docs.mendix.com/ats/), a Selenium-based test service for automated UI testing. Third-party testing tools and services can also be used to integrate with the CI pipeline.
 
 For more details, see [Testing](test-automation-qa).
 

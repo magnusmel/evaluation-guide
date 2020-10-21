@@ -28,7 +28,7 @@ For more information, see [What Are the Key Architectural Principles Behind the 
 
 ## What Are the Key Components of the Mendix Platform Architecture? {#components}
 
-The Mendix Platform is an integrated application-platform-as-a-service (aPaaS) for the design, build, test, and deployment of enterprise applications. It comprises a sophisticated Developer Portal for app portfolio management, requirements gathering, monitoring, and operations, desktop and web modeling environments for rapid visual app development, and a comprehensive app store complete with hundreds of reusable components, connectors, and building blocks to accelerate development.
+The Mendix Platform is an integrated application-platform-as-a-service (aPaaS) for the design, build, test, and deployment of enterprise applications. It comprises a sophisticated Developer Portal for app portfolio management, requirements gathering, monitoring, and operations, desktop and web modeling environments for rapid visual app development, and a comprehensive App Store/Marketplace complete with hundreds of reusable components, connectors, and building blocks to accelerate development.
 
 Read on in [What Are the Key Components of the Mendix Platform and Their Architecture?](platform-architecture#key-components).
 

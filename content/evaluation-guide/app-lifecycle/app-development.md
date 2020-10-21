@@ -72,7 +72,7 @@ Within Mendix Studio Pro, you are able to build extensions, add integration to u
 
 Mendix Studio Pro has a **Work offline** mode in which you can continue modeling, running, and testing the app locally without an internet connection. In this mode, all the changes are still stored in the local version repository. When you want to share the changes made with the rest of your app development team, you can go online again and commit to the [Team Server](version-control) version control repository.
 
-While working offline, online services like the [Mendix App Store](https://appstore.home.mendix.com/index3.html), Team Server, and and app project stories in the Mendix Developer Portal are temporarily disabled.
+While working offline, online services like the [Mendix App Store/Marketplace](https://appstore.home.mendix.com/index3.html), Team Server, and and app project stories in the Mendix Developer Portal are temporarily disabled.
 
 ### 3.4 How Can I Deploy & Test Locally?
 

@@ -48,11 +48,8 @@ In addition to the widgets provided by Mendix, any developer can build additiona
 
 ### 2.3 Modules
 
-<<<<<<< HEAD
+
 A module is a self-contained application component that can be reused in multiple applications. Modules can be downloaded from the Mendix App Store/Marketplace into a project as a local copy. By doing this, the module becomes part of the project scope and is maintained through its lifecycle as part of the app project.
-=======
-A module is a self-contained application component that can be reused in multiple applications. Modules can be downloaded from the Mendix App Store into a project as a local copy. By doing this, the module becomes part of the project scope and is maintained through its lifecycle as part of the application project.
->>>>>>> development
 
 A module typically consists of a domain model, user interfaces, and microflows. Although technically identical, the following types of modules can be distinguished:
 

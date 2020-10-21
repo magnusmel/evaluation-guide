@@ -34,9 +34,9 @@ You can always investigate the extensive platform documentation on the [Mendix d
 
 For direct support in the platform, Mendix provides an in-product chat functionality. Via this channel, you can receive updates about the latest releases, and you can always start a direct conversation with someone from Mendix Support.
 
-## 5 App Store/Marketplace Support
+## 5 App Store Support
 
-The [Mendix App Store/Marketplace](https://appstore.home.mendix.com/index3.html) is full of content provided by Mendix and the community. Specific support for App Store/Marketplace content is determined by the content support category and service level agreement (SLA) that you possess.
+The [Mendix App Store](https://appstore.home.mendix.com/index3.html) is full of content provided by Mendix and the community. Specific support for App Store content is determined by the content support category and service level agreement (SLA) that you possess.
 
 Mendix distinguishes two supported content categories:
 

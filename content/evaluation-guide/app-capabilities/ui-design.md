@@ -50,7 +50,7 @@ This video presents how to use building blocks with your app's layout:
 
 Widgets are small user interface elements (for example, alerts, buttons, charts) used to enhance existing building blocks.
 
-Mendix provides many widgets out of the box, and there are hundreds of open-source widgets available in the Mendix App Store/Marketplace. You can also build your own widgets using JavaScript, as discussed in the section [How Can I Extend the Mendix Front-End?](front-end#extend) of *Front-End*.
+Mendix provides many widgets out of the box, and there are hundreds of open-source widgets available in the Mendix App Store. You can also build your own widgets using JavaScript, as discussed in the section [How Can I Extend the Mendix Front-End?](front-end#extend) of *Front-End*.
 
 ### 1.5 Design Properties
 
@@ -74,7 +74,7 @@ Mendix provides a growing list of out-of-the-box widgets. This is a selection of
 * **Button widgets**  – these buttons trigger actions (for example, save button, close page button, microflow button)
 * **Visualization widgets**  – more graphical widgets (for example, chart, map)
 
-New widgets are built all the time by both the core Mendix development team and our community of developers using the standard available tooling. You can find available widgets in the [Mendix App Store/Marketplace](https://appstore.home.mendix.com/index3.html) and download them to use in your application.
+New widgets are built all the time by both the core Mendix development team and our community of developers using the standard available tooling. You can find available widgets in the [Mendix App Store](https://appstore.home.mendix.com/index3.html) and download them to use in your application.
 
 {{% image_container width="600" %}}
 ![App Store](attachments/appstore.png)
@@ -96,7 +96,7 @@ For [native mobile apps](native-mobile-apps), the styling is based on JavaScript
 
 ## 4 How Can I Create a Consistent User Experience Across My Apps?
 
-Mendix apps are based on a theme that can be published to your Private App Store/Marketplace or embedded in a company starter app for easy reuse across apps. For every app, it is possible to extend the default theme so that you can fine tune the app according to your needs.
+Mendix apps are based on a theme that can be published to your Private App Store or embedded in a company starter app for easy reuse across apps. For every app, it is possible to extend the default theme so that you can fine tune the app according to your needs.
 
 ## 5 How Does Mendix Support Reuse of Design Patterns & Elements?
 

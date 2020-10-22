@@ -32,7 +32,7 @@ For more information, see the [Multi-Cloud Overview](../app-capabilities/multi-c
 
 ## 3 How Is Application Isolation Organized?
 
-Within the Mendix Cloud, the logical term “environment” is used to describe the application isolation. Each application runs in an environment, and is fully separated from other apps for computing, memory, and storage. A Mendix app runs on one or more Mendix Runtime Engine instances within the environment (where the environment is dedicated to a single application). Also, for each application, a dedicated database and S3 bucket is provisioned, in order to have full isolation on the data level as well.
+Within the Mendix Cloud, the logical term “environment” is used to describe the application isolation. Each application runs in an environment, and is fully separated from other apps for computing, memory, and storage. A Mendix app runs on one or more Mendix Runtime Engine instances within the environment (where the environment is dedicated to a single application). Also, for each application, a dedicated database and S3 bucket is provisioned in order to have full isolation on the data level as well.
 
 {{% image_container width="600" %}}
 ![Application Environment Runtime](attachments/environment-runtime-container.png)

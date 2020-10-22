@@ -26,7 +26,7 @@ Starter apps are complete app frameworks that can be used as a starting point wh
 
 <video controls  src="attachments/OE_StarterApps.mp4">VIDEO</video>
 
-You can also upload your own starter apps to your [Private App Store/Marketplace](https://docs.mendix.com/developerportal/app-store/share-app-store-content#private-app-store) to make them available as starting points for your whole organization. This way, they can be used to create the root model of all new apps. In addition to basic design patterns, they will often include complete functional building blocks, such as user onboarding workflows, integration frameworks, document management, business rules, and processes.
+You can also upload your own starter apps to your [Private Marketplace](https://docs.mendix.com/developerportal/app-store/share-app-store-content#private-app-store) to make them available as starting points for your whole organization. This way, they can be used to create the root model of all new apps. In addition to basic design patterns, they will often include complete functional building blocks, such as user onboarding workflows, integration frameworks, document management, business rules, and processes.
 
 ## 3 How Does Mendix Onboard New Users? {#tailored-guidance}
 

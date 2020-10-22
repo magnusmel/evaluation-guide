@@ -10,7 +10,7 @@ tags: ["app store", "reusable component", "widget", "module"]
 
 ## 1 What Are the Platform Capabilities of the Mendix App Store/Marketplace?
 
-The Mendix Platform is integrated with the [Mendix App Store/Marketplace](https://appstore.home.mendix.com/index3.html), which is full of components built by both Mendix and the Mendix community. There is a Public App Store/Marketplace for apps and application components, and a Private App Store/Marketplace where companies can internally share apps and application components.
+The Mendix Platform is integrated with the [Mendix App Store/Marketplace](https://appstore.home.mendix.com/index3.html), which is full of components built by both Mendix and the Mendix community. There is a Public Marketplace for apps and app  components, and a Private Marketplace where companies can internally share apps and application components.
 
 The App Store/Marketplace is fully integrated in both Mendix Studio Pro and Mendix Studio. Users can directly search for and implement reusable components in their applications.
 
@@ -61,6 +61,6 @@ A module typically consists of a domain model, user interfaces, and microflows. 
 
 The Mendix App Store/Marketplace can be used as a private enterprise app store so that project teams can discover the reusable components (like connectors, widgets, styling, and starter apps) that are accessible to them within their organization.
 
-![Private App Store/Marketplace](attachments/app-store-company.png)
+![Private Marketplace](attachments/app-store-company.png)
 
 The Mendix App Store/Marketplace supports the distribution of private company-only content. Any other user in your company can search for and use this private content from the App Store/Marketplace. Private content is always marked as "Company only" so that it is clear what is publicly and privately available.

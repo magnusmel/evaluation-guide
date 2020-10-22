@@ -96,7 +96,7 @@ For [native mobile apps](native-mobile-apps), the styling is based on JavaScript
 
 ## 4 How Can I Create a Consistent User Experience Across My Apps?
 
-Mendix apps are based on a theme that can be published to your Private App Store/Marketplace or embedded in a company starter app for easy reuse across apps. For every app, it is possible to extend the default theme so that you can fine tune the app according to your needs.
+Mendix apps are based on a theme that can be published to your Private Marketplace or embedded in a company starter app for easy reuse across apps. For every app, it is possible to extend the default theme so that you can fine tune the app according to your needs.
 
 ## 5 How Does Mendix Support Reuse of Design Patterns & Elements?
 
